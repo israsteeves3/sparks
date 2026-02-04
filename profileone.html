@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page | Sparks</title>
+    <link rel="stylesheet" href="profileone.css">
+</head>
+<!--this is the one shown on sign up-->
+<body>
+<header>
+    <h1>Profile Information</h1>
+    <img src="" alt="profile picture">
+</header>
+<form action="formhandler.php" method="post"> 
+    
+<fieldset>
+    <legend>Personal Information</legend>
+    <div>
+        <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName"
+            placeholder="given first name">
+        </div>
+        <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName"
+            placeholder="given family or last name">
+        </div>
+
+        <!-- Broken! needs javascript. this is made for letting users change profile page colors, or accessibility for forms, etc
+        <div>
+            <label for="colorCode">Color</label>
+            <input type="color" value="#ff0000" name="colorCode">
+        
+        </div>
+        -->
+
+<div class="dropdown">
+    <button class="dropbtn"> Select Avatar</button>
+    <div class="dropdown-content">
+        <a href="#"><img src="catone.png" width="30"></a>
+        <a href="#"><img src="avatarone.png" width="30"></a>
+        <a href="#"><img src="avatarone.png" width="30"></a>
+        <a href="#"><img src="avatarone.png" width="30"></a>
+        <a href="#"><img src="avatarone.png" width="30"></a>
+        <a href="#"><img src="avatarone.png" width="30"></a>
+    </div>
+</div>
+
+        
+<div>
+    <label for="emailAdd">Email</label>
+    <input type="email" id="emailAdd" name="emailAdd">
+</div>
+
+<div>
+    <label for="age">Age</label>
+    <select name="age" id="age">
+        <option value="none" selected> -- Please Select One -- </option>
+        <option value="eighteen">18</option>
+        <option value="nineteen">19</option>
+        <option value="twenty">20</option>
+        <option value="twenty-one">21</option>
+        <option value="twenty-two">22</option>
+        <option value="twenty-three">23</option>
+        <option value="twenty-four">24</option>
+        <option value="twenty-five">25</option>
+        <option value="twenty-six">26</option>
+        <option value="twenty-seven">27</option>
+        <option value="twenty-eight">28</option>
+        <option value="twenty-nine">29</option>
+        <option value="thirty">30</option>
+        <option value="thirty-one">31</option>
+        <option value="thirty-two">32</option>
+        <option value="thirty-three">33</option>
+        <option value="thirty-four">34</option>
+        <option value="thirty-five">35</option>
+        <option value="thirty-six-plus">36+</option>
+    </select>
+</div>
+</fieldset>
+
+<label for="comment">Comment</label>
+<textarea name="comment" id="comment"></textarea>
+<!--for comments!!! IF YOU MISSPELL the closing text tag the box will swallow the rest of your code. 
+easy to fix but scary to look at -->
+
+<fieldset>
+    <legend>Categories Interested In</legend>
+
+    <label for="crafts">Crafts</label>
+    <input type="checkbox" name="crafts" id="crafts">
+
+    <label for="arts">Arts</label>
+    <input type="checkbox" name="arts" id="arts">
+
+    <label for="sports">Sports</label>
+    <input type="checkbox" name="sports" id="sports">
+
+    <label for="music">Music</label>
+    <input type="checkbox" name="music" id="music">
+
+    <label for="games">Games</label>
+    <input type="checkbox" name="games" id="games">
+
+    <label for="culinary">Culinary</label>
+    <input type="checkbox" name="culinary" id="culinary">
+
+    <label for="repair">Repair</label>
+    <input type="checkbox" name="repair" id="repair">
+
+    <label for="recreational">Recreational</label>
+    <input type="checkbox" name="recreational" id="recreational">
+</fieldset>
+
+<fieldset>
+    <legend>Answer</legend>
+
+    <label for="yes">Yes</label>
+    <input type="radio" id="yes" name="answer"> <!--this is the only case id and name is different. this is bc its referring to your answer-->
+
+    <label for="no">No</label>
+    <input type="radio" id="no" name="answer"> 
+</fieldset>
+
+    <div>
+        <label for="guestNo">Number of guests</label>
+        <input type="number" min="1" max="12" value="2" step="1"
+        id="guestNo" name="guestNo">
+    </div>
+
+    <div>
+        <label for="reservationDate">Reservation Date</label>
+        <input type="date" id="reservationDate"
+        name="reservationDate"> <!--min="?php echo date(l M y);" this is how to set a min date so they cant use a date in the past. this is not a php page however,
+        so it is commented out-->
+    </div>
+<!--important!!!!! put on its own line-->
+<input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
