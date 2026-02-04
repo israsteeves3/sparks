@@ -1,0 +1,90 @@
+body {
+    background: black;
+    margin: 0px;
+    display: flex;
+}
+
+.button_nav {
+    display: none;
+}
+
+.bar {
+    background-color: aqua;
+    padding-right: 3rem;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    background-color: blueviolet;
+    max-width: 800px;
+    max-height: auto;
+    margin: 3rem;
+    justify-items: center;
+    border-radius: 5px;
+    border: purple;
+}
+
+img {
+    border-radius: 5px;
+    border: 5px solid orangered;
+}
+
+p {
+    margin: 2rem;
+}
+
+.hobby_img {
+    margin-left: 21%;
+    margin-top: .25rem;
+    max-width: 100%;
+    max-height: auto;
+
+}
+
+
+
+.tags {
+    display: flex;
+}
+
+.tag_img {
+    height: 100px;
+    width: 100px;
+    margin: 2rem;
+    max-width: 100%;
+    max-height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        display: block;
+    }
+    .button_nav{
+        display: block;
+        background-color: pink;
+        padding: 2rem;
+    }
+
+    button {
+        margin-left: 50%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hobby_img {
+    margin-left: 5%;
+    margin-top: .25rem;
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 5px;
+    }
+
+}
