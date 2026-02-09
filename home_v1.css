@@ -1,6 +1,16 @@
+body {
+    text-align: center;
+}
+
+#story {
+    width: 500px;
+}
+
+#about {
+    margin: auto;
+}
+
 /* Login Card css */
-
-
 .login_card {
     background-color: #F27DAD;
     text-align: center;
@@ -16,14 +26,24 @@ form {
     display: grid;
 }
 
-.signup_card {
+#signup {
     display: none;
+    background-color: #F27DAD;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    z-index: 99;
+    position: absolute;
+    right: 40%;
+    top: 10%;
 }
 
 .trans {
     position: absolute;
     z-index: 50;
     border: none;
+    width: auto;
+    height: auto;
 }
 
 .sub {
@@ -39,9 +59,4 @@ form {
     background-color: #3F50A2;
     color: white;
     border-radius: 10px;
-}
-
-.sign:active .signup_card{
-    display: block;
-
 }
