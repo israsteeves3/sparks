@@ -1,0 +1,47 @@
+/* Login Card css */
+
+
+.login_card {
+    background-color: #F27DAD;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    z-index: 99;
+    position: absolute;
+    right: 40%;
+    top: 10%;
+}
+
+form {
+    display: grid;
+}
+
+.signup_card {
+    display: none;
+}
+
+.trans {
+    position: absolute;
+    z-index: 50;
+    border: none;
+}
+
+.sub {
+    background-color: #3F50A2;
+    color: white;
+    width: 60px;
+    border-radius: 10px;
+    justify-self: center;
+    margin: 1rem;
+}
+
+.sign {
+    background-color: #3F50A2;
+    color: white;
+    border-radius: 10px;
+}
+
+.sign:active .signup_card{
+    display: block;
+
+}

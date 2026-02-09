@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -7,43 +8,53 @@
     <link rel="stylesheet" href="versone.css">
     <link rel="stylesheet" href="home_v1.css">
 </head>
-<body>
-        <header class="button_nav"><img class="sparky_nav" src="sparky_light.svg"></header>
-        <nav class="bar">
-            <ul>
-                <li><a href="home_v1.html">Home</a></li>
-                <li><a href="profile_1.html">Profile</a> </li>
-                <li>Maybe List</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Add A Hobby</li>
-            </ul>
-        </nav> 
-        <div  class="login_card">
-        <h1>Login</h1>
-            <form>
-                <label for="email">Email</label>
-                <input id="email" type="email">
-                <label for="pass">Password</label>
-                <input id="pass" type="password">
-                <input type="submit">
-            </form>
-        <p>Don't have a login? <a href="signup.html">Sign up</a></p>
-        </div>
 
-        <div class="signup_card">
-              <form>
-                <label for="email">Email</label>
-                <input id="email" type="email">
-                <label for="pass">Password</label>
-                <input id="confirm_pass" type="password">
-                <label for="confirm_pass">Confirm Password</label>
-                <input id="pass" type="password">
-                <input type="submit">
-            </form>
-        </div>
+<body>
+    <header class="button_nav"><img class="sparky_nav" src="sparky_light.svg"></header>
+    <nav class="bar">
+        <ul>
+            <li><a href="home_v1.html">Home</a></li>
+            <li><a href="profile_1.html">Profile</a> </li>
+            <li>Maybe List</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Add A Hobby</li>
+        </ul>
+    </nav>
+    <div class="login_card">
+        <h1>Login</h1>
+        <form>
+            <label for="email">Email</label>
+            <input id="email" type="email">
+            <label for="pass">Password</label>
+            <input id="pass" type="password">
+            <input class="sub" type="submit">
+        </form>
+        <p>Don't have a login? <button class="sign">Sign up</button></p>
+    </div>
+
+    <div class="signup_card">
+        <form>
+            <label for="email">Email</label>
+            <input id="email" type="email">
+            <label for="pass">Password</label>
+            <input id="confirm_pass" type="password">
+            <label for="confirm_pass">Confirm Password</label>
+            <input id="pass" type="password">
+            <input class="sub" type="submit">
+        </form>
+    </div>
+    <div id="about">
+        <h1>Brand Story</h1>
+        <p>Everyone has one or more hobbies that fill their time with joy and meaning. But what about those who have yet
+            to find those sparks? Sure, you can research and deep dive into multiple websites, videos, and podcasts. But
+            then you spend more time researching than doing, not everyone enjoys that. That’s why we decided to create
+            Your Sparks. An interactive website that helps you look at the multiple hobbies available with as much
+            information you need to get started. </p>
+    </div>
+    <img class="trans" src="transparent.svg">
     </main>
-        <link rel="script" href="home_v1.js">
+    <link rel="script" href="home_v1.js">
 </body>
 
 </html>
