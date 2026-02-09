@@ -21,19 +21,20 @@
             <li>Add A Hobby</li>
         </ul>
     </nav>
-    <div class="login_card">
+    <div class="login_card" id="login">
         <h1>Login</h1>
         <form>
             <label for="email">Email</label>
             <input id="email" type="email">
             <label for="pass">Password</label>
             <input id="pass" type="password">
-            <input class="sub" type="submit">
+            <button class="sub" id="sub" type="submit">submit</button>
         </form>
         <p>Don't have a login? <button class="sign">Sign up</button></p>
+        <p id="log"></p>
     </div>
 
-    <div class="signup_card">
+    <div class="signup_card" id="signup">
         <form>
             <label for="email">Email</label>
             <input id="email" type="email">
@@ -52,9 +53,9 @@
             Your Sparks. An interactive website that helps you look at the multiple hobbies available with as much
             information you need to get started. </p>
     </div>
-    <img class="trans" src="transparent.svg">
+    <img class="trans" id="trans" src="transparent.svg">
     </main>
-    <link rel="script" href="home_v1.js">
+    <script src="home_v1.js"></script>
 </body>
 
 </html>
