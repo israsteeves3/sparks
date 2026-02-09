@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: #FAFAFD;
     margin: 0px;
     display: flex;
 }
@@ -9,7 +9,7 @@ body {
 }
 
 .bar {
-    background-color: aqua;
+    background-color: #F27DAD;
     padding-right: 3rem;
 }
 
@@ -68,15 +68,22 @@ p {
     .button_nav{
         display: block;
         background-color: pink;
-        padding: 2rem;
+        border-radius: 100px;
+        position: absolute;
+        right: 20px;
+        top: 5px;
+
     }
 
-    button {
-        margin-left: 50%;
+    .sparky_nav {
+        border: none;
+        height: 50px;
+        width: auto;
     }
 
     nav {
         display: none;
+        text-align: center;
     }
 
     .hobby_img {
