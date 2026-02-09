@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 323.27 323.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Music_Note" data-name="Music Note">
+    <circle class="cls-1" cx="161.63" cy="161.63" r="160.13"/>
+    <ellipse cx="100.45" cy="230.88" rx="48.29" ry="37.29" transform="translate(-72.91 48.28) rotate(-20)"/>
+    <ellipse cx="216.74" cy="225.19" rx="48.29" ry="37.29" transform="translate(-63.95 87.71) rotate(-20)"/>
+    <rect x="131.63" y="65.5" width="131.01" height="37.51"/>
+    <rect x="179.44" y="135.3" width="153" height="15.3" transform="translate(398.89 -112.99) rotate(90)"/>
+    <rect x="62.78" y="144.86" width="153" height="15.3" transform="translate(291.79 13.24) rotate(90)"/>
+  </g>
+</svg>

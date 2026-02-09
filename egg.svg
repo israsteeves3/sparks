@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328.22 328.22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7cb2b5;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #ffce07;
+      }
+    </style>
+  </defs>
+  <g id="The_Egg" data-name="The Egg">
+    <circle id="Background" class="cls-1" cx="164.11" cy="164.11" r="162.61"/>
+    <path id="Whites" class="cls-2" d="M307.57,149.18c4.24,22.09-25.61,40.97-30.25,43.9-34.09,21.55-84.38,19.94-116.46,8.18-25.47-9.34-21.67-18.58-49.91-31.63-48.73-22.51-92.97-10.79-96.8-20.45-5.06-12.75,64.74-52.08,146.71-52.08,59.63,0,140.28,18.58,146.72,52.08Z"/>
+    <path id="Yolk" class="cls-3" d="M247.07,154.2c-9.24,3.07-23.38,6.59-40.84,6.43-16.33-.15-29.62-3.45-38.57-6.43-.86-22.52,16.98-41.36,38.57-41.97,22.41-.63,41.71,18.58,40.84,41.97Z"/>
+  </g>
+</svg>

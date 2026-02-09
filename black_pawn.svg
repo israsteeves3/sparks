@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 325.43 325.43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="The_Black_Pawn" data-name="The Black Pawn">
+    <circle class="cls-1" cx="162.71" cy="162.71" r="161.21"/>
+    <g id="Pawn">
+      <circle cx="162.71" cy="89.09" r="38.72"/>
+      <polygon points="202.7 253.48 122.73 253.48 151.92 116.38 173.5 116.38 202.7 253.48"/>
+      <rect x="131.38" y="124.5" width="63.15" height="13.24"/>
+      <rect x="121.46" y="201.43" width="82.51" height="25.39"/>
+      <rect x="93.53" y="225.55" width="138.36" height="49.51"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 322.4 322.4">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="The_White_Pawn" data-name="The White Pawn">
+    <circle class="cls-1" cx="161.2" cy="161.2" r="159.7"/>
+    <path d="M161.2,131.56c-23.87,0-43.29-19.42-43.29-43.29s19.42-43.29,43.29-43.29,43.29,19.42,43.29,43.29-19.42,43.29-43.29,43.29Z"/>
+    <polygon points="115.49 256.05 146.52 110.37 175.89 110.37 206.91 256.05 115.49 256.05"/>
+    <rect x="149.95" y="93.69" width="22.99" height="72.43" transform="translate(291.35 -31.54) rotate(90)"/>
+    <rect x="143.69" y="166.33" width="35.02" height="91.61" transform="translate(373.33 50.93) rotate(90)"/>
+    <rect x="131.75" y="174.5" width="58.91" height="146.94" transform="translate(409.17 86.77) rotate(90)"/>
+    <g>
+      <rect class="cls-2" x="136.68" y="179.44" width="49.04" height="137.07" transform="translate(409.17 86.77) rotate(90)"/>
+      <polygon class="cls-2" points="200.81 251.11 171.89 115.3 150.51 115.3 121.59 251.11 200.81 251.11"/>
+      <rect class="cls-2" x="148.63" y="171.26" width="25.15" height="81.74" transform="translate(373.33 50.93) rotate(90)"/>
+      <rect class="cls-2" x="154.89" y="98.62" width="13.12" height="62.56" transform="translate(291.35 -31.54) rotate(90)"/>
+      <circle class="cls-2" cx="161.2" cy="88.27" r="38.35"/>
+    </g>
+  </g>
+</svg>

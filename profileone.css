@@ -1,3 +1,23 @@
 body{
     text-align: center;
 }
+
+form div{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+form div label{
+    width: 6rem;
+}
+
+form div input, form div select{ /*now it targets the inputs and the select for province
+    /*border: 1px dotted green;*/
+    padding: .5rem;
+}
+
+form div input:focus, form div select:focus{
+    background: #000;
+    color: #fff;
+}

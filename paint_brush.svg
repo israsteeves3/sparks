@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328.68 328.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #7cb2b5;
+      }
+
+      .cls-3 {
+        fill: #b18752;
+      }
+
+      .cls-4 {
+        fill: #4e5b5b;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="164.34" cy="164.34" r="162.84"/>
+  <g id="PaintBrush">
+    <path id="Brushels" class="cls-2" d="M299.6,107.26c-19.05,13.92-38.1,27.85-57.15,41.77-22.29-22.09-44.59-44.19-66.88-66.28,14.53-18.64,29.06-37.28,43.59-55.92,26.81,26.81,53.62,53.62,80.44,80.44Z"/>
+    <rect id="Metal_Part" data-name="Metal Part" class="cls-4" x="161.48" y="88.63" width="56.12" height="94.06" transform="translate(-40.41 173.76) rotate(-45)"/>
+    <path id="Handle" class="cls-3" d="M82.04,284.7c11.32-3.03,8.44-22.57,22.17-39.31,15.6-19.02,42.96-22.65,64.76-22.47l35.65-35.65c-22.17-22.17-44.34-44.34-66.51-66.51-11.27,11.27-22.54,22.54-33.81,33.81,4.05,28.42,2.93,58.01-15,74.05-15.83,14.17-36.73,10.6-40.05,22.54-3.86,13.87,19.16,37.18,32.79,33.53Z"/>
+  </g>
+</svg>
