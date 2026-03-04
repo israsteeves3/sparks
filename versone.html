@@ -5,23 +5,63 @@
     <meta name="viewport" content="width=device-width">
     <title>Your Sparks</title>
     <link rel="stylesheet" href="versone.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-        <header class="button_nav"><img class="sparky_nav" src="sparky_light.svg"></header>
-        <nav class="bar">
-            <ul>
-                <li><a href="home_v1.html">Home</a></li>
-                <li>Profile</li>
-                <li>Maybe List</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Add A Hobby</li>
-            </ul>
-        </nav>
-        <main class="card">
+<div class="desktop">
+   <header class="button_nav">
+        <a href="">
+            <img class="logo" src="LogoWhite.svg">
+        </a>
+    <!--Want to delete the following line as the logo usually represents the home page button     
+        <a href="home_v1.html">Home</a> -->
+        <a id="single" href="versone.html">
+            <img class="icon" src="icons/Icons-03.svg">
+        </a>
+        <a id="high_e" href="versone.html">
+            <img class="icon" src="icons/Icons-02.svg">
+        </a>
+        <a id="low_e" href="versone.html">
+            <img class="icon" src="icons/Icons-04.svg">
+        </a>
+        <a id="group" href="versone.html">
+            <img class="icon" src="icons/Icons-05.svg">
+        </a>
+        <a id="indoor" href="versone.html">
+            <img class="icon" src="icons/Icons-06.svg">
+        </a>
+        <a id="active" href="versone.html">
+            <img class="icon" src="icons/Icons-07.svg">
+        </a>
+        <a id="high_b" href="versone.html">
+            <img class="icon" src="icons/Icons-08.svg">
+        </a>
+        <a id="low_b" href="versone.html">
+            <img class="icon" src="icons/Icons-09.svg">
+        </a>
+        <a id="screen" href="versone.html">
+            <img class="icon" src="icons/Icons-10.svg">
+        </a>
+        <a href="profile">
+            <img class="icon" src="">
+        </a>
+    </header>
+    <div class="slides">
+            <div class="hobby_slides">
+                <button class="prev">&#10094;</button>
+                <img src="photos/appic-nCrQ8sMa0c8-unsplash.jpg">
+                <button class="next">&#10095;</button>
+            </div>
+            <div class="yes_info_no">
+                <button>X</button>
+                <button>i</button>
+                <button>checkmark</button>
+            </div>
+
+    </div>
+        <div class="card">
             <h2>This Will Be The Hobby Card</h2>
             <img class="hobby_img" src="one.webp">
-    
             <p class="main">Sub Header? Tags? Categories?</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -39,7 +79,7 @@
                         <img class="tag_img" src="one.webp">
                     </div>
             </section>
-        </main>
+        </div>
         <link rel="script" href="versone.js">
 </body>
 

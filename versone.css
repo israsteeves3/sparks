@@ -1,36 +1,24 @@
 body {
     background: #FAFAFD;
     margin: 0px;
-    display: grid;
-    grid-template-areas: 
-    "head"  "head"
-    "aside" "main";
 }
 
-header{
-    grid-area: head;
+.desktop {
+    margin: auto;
 }
 
-.sparky_nav {
-    display: none;
+.slides {
+   justify-items: center;
 }
 
-.icon {
-    height: 50px;
+.hobby_slides img {
+    height: 400px;
     width: auto;
+    margin: 1rem;
 }
 
-.bar {
-    background-color: #F27DAD;
-    padding-right: 3rem;
-    grid-area: aside;
-}
 
-li {
-    list-style-type: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
+/* .phone_card css*/
 
 .card {
     background-color: blueviolet;
@@ -40,63 +28,15 @@ li {
     justify-items: center;
     border-radius: 5px;
     border: purple;
-}
-
-img {
-    border-radius: 5px;
-    border: 5px solid orangered;
+    display: none;
 }
 
 p {
     margin: 2rem;
 }
 
-.hobby_img {
-    margin-left: 21%;
-    margin-top: .25rem;
-    max-width: 100%;
-    max-height: auto;
-
-}
-
-
-
-.tags {
-    display: flex;
-}
-
-.tag_img {
-    height: 100px;
-    width: 100px;
-    margin: 2rem;
-    max-width: 100%;
-    max-height: auto;
-}
 
 @media only screen and (max-width: 768px) {
-
-    body{
-        display: block;
-    }
-    .button_nav{
-        display: block;
-        background-color: pink;
-        border-radius: 100px;
-        position: absolute;
-        right: 20px;
-        top: 5px;
-    }
-
-    .sparky_nav {
-        border: none;
-        height: 50px;
-        width: auto;
-    }
-
-    nav {
-        display: none;
-        text-align: center;
-    }
 
     .hobby_img {
     margin-left: 5%;
@@ -106,4 +46,11 @@ p {
     border-radius: 5px;
     }
 
+    .card {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
 }

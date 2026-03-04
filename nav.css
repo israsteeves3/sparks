@@ -43,10 +43,6 @@ a {
 
 @media only screen and (max-width: 768px) {
 
-.icon {
-    display: none;
-}
-
 .phone_nav {
     display: block;
 }
