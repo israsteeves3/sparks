@@ -1,16 +1,29 @@
 body {
     background: #FAFAFD;
     margin: 0px;
-    display: flex;
+    display: grid;
+    grid-template-areas: 
+    "head"  "head"
+    "aside" "main";
 }
 
-.button_nav {
+header{
+    grid-area: head;
+}
+
+.sparky_nav {
     display: none;
+}
+
+.icon {
+    height: 50px;
+    width: auto;
 }
 
 .bar {
     background-color: #F27DAD;
     padding-right: 3rem;
+    grid-area: aside;
 }
 
 li {

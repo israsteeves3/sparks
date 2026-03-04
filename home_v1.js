@@ -21,3 +21,9 @@ sub2.addEventListener("click", function(e){
     document.getElementById("trans").style.display = "none";
     e.preventDefault();
 })
+
+logButton.addEventListener("click", function (e){
+    document.getElementById("signup").style.display = "none";
+    document.getElementById("login").style.display = "block";
+    e.preventDefault();
+})
