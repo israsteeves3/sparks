@@ -1,14 +1,7 @@
 body {
     background: #FAFAFD;
     margin: 0px;
-}
-
-.desktop {
-    margin: auto;
-}
-
-.slides {
-   justify-items: center;
+    position: fixed;
 }
 
 .hobby_slides img {
@@ -17,36 +10,97 @@ body {
     margin: 1rem;
 }
 
+h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
 
 /* .phone_card css*/
 
-.card {
-    background-color: blueviolet;
-    max-width: 800px;
-    max-height: auto;
-    margin: 3rem;
-    justify-items: center;
-    border-radius: 5px;
-    border: purple;
+.phone_card {
     display: none;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.card {
+/* How to center element that is relavtive*/
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    padding-top: 5rem;
+    margin-top: 2rem;
+    justify-items: center;
+    border-radius: 10px;
+    border: #3F4FA2;
+    padding-bottom: 1rem;
+    transform-origin: bottom center;
+}
+
+.hobby_img {
+    width: 250px;
 }
 
 p {
-    margin: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.tags {
+    display: flex;
+}
+
+.tag_img{
+    height: 35px;
+    width: 35px;
+    border: 3px solid #F27DAD;
+    margin: 1rem;
+    background-color: #F27DAD;
+    padding: 2rem;
+}
+
+#things {
+    background-color: #F27DAD;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#sliderContainer {
+    border: solid 2px blue;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 50%;
+    margin-top: 100px;
+}
+
+.range {
+    appearance: none;
+    outline: none;
+    width: 100%;
+    height: 600px;
+    opacity: 0;
 }
 
 
 @media only screen and (max-width: 768px) {
-
-    .hobby_img {
-    margin-left: 5%;
-    margin-top: .25rem;
-    max-width: 100%;
-    max-height: auto;
-    border-radius: 5px;
+    body { 
+    background-color: #3F4FA2;
+    width: 100%;
+    height: auto;
     }
 
-    .card {
+    .hobby_img {
+    margin-left: 22%;
+    margin-top: .25rem;
+    border-radius: 10px;
+    }
+
+    .phone_card {
         display: block;
     }
 
