@@ -26,7 +26,7 @@ h2 {
     margin: auto;
 }
 
-.card {
+#cardContainer {
 /* How to center element that is relavtive*/
     position: relative;
     z-index: 2;
@@ -35,7 +35,6 @@ h2 {
     margin-top: 2rem;
     justify-items: center;
     border-radius: 10px;
-    border: #3F4FA2;
     padding-bottom: 1rem;
     transform-origin: bottom center;
 }
@@ -69,13 +68,25 @@ p {
 
 }
 
+#newCard {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    padding-top: 5rem;
+    margin-top: 2rem;
+    justify-items: center;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    transform-origin: bottom center;
+}
+
 #sliderContainer {
-    border: solid 2px blue;
     position: absolute;
     z-index: 99;
-    width: 100%;
+    width: 80%;
     height: 50%;
     margin-top: 100px;
+    margin-left: 2rem;
 }
 
 .range {
@@ -83,7 +94,7 @@ p {
     outline: none;
     width: 100%;
     height: 600px;
-    opacity: 0;
+    opacity: 0.001;
 }
 
 

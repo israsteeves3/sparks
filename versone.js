@@ -17,6 +17,33 @@ function changeOpacity(){
 
 document.getElementById('sliderRange').addEventListener('input',changeOpacity);
 
-function resetSlider(){
-    document.getElementById('sliderRange').Value0.reset();
+//This function is to remove the card and bring forth the next card.
+function removeCard(){
+    let v = document.getElementById('sliderRange').value;
+    const card = document.getElementById('cardContainer');
+    if (v <= -45){
+        card.textContent = "hello";
+        document.getElementById('sliderRange').value = 0;
+        document.getElementById('cardContainer').style.transform="rotate(" + 0 + "deg)";
+        document.getElementById('cardContainer').style.opacity = 1;
+        document.getElementById('cardContainer').style.height = "700px";
+    }
+    if (v >= 50){
+        card.textContent = "New Card Information Here!";
+        document.getElementById('sliderRange').value = 0;
+        document.getElementById('cardContainer').style.transform="rotate(" + 0 + "deg)";
+        document.getElementById('cardContainer').style.opacity = 1;
+        document.getElementById('cardContainer').style.height = "700px";
+    }
+    else {
+    }
 }
+
+document.getElementById('sliderRange').addEventListener('input',removeCard);
+
+
+
+//function resetSlider(){
+//   document.getElementById('sliderRange').Value0.reset();
+//}
+
