@@ -39,11 +39,11 @@ form {
 }
 
 .trans {
-    position: absolute;
+    position: fixed;
     z-index: 50;
     border: none;
-    width: auto;
-    height: auto;
+    margin: 0;
+    width:100vh;
 }
 
 .sub {
@@ -75,7 +75,7 @@ form {
 .about {
     border: 2px solid #F27DAD;
     border-radius: 10px;
-    margin: auto;
+    margin-left: 8rem;
 }
 
 .phone {
@@ -96,6 +96,7 @@ form {
         margin-left: 2rem;
         margin-right: 2rem;
         border-radius: 10px;
+        margin-top: 5rem;
     }
 
     .phone_card h1{
@@ -134,7 +135,23 @@ form {
         color: white;
     }
 
-    .trans {
-        display: none;
-    }
+.login_card{
+    display: none;
+}
+
+.trans{
+    display: none;
+}
+
+nav{
+    display: none
+}
+
+.main_body {
+    display: none;
+}
+
+.sparky_nav{
+    display: none;
+}
 }

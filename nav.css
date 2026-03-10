@@ -1,6 +1,21 @@
 body {
     margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #F27DAD;
+    box-shadow: 0px 2px #616161;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#mid_nav{ 
+    margin-left: 2.5rem;
+    margin-right: 5rem;
 }
 
 .main_body {
@@ -30,9 +45,9 @@ a {
 }
 
 .button_nav {
-    background-color: #F27DAD;
+
     padding: 1rem;
-    box-shadow: 0px 2px #616161;
+
 }
 
 /*li {

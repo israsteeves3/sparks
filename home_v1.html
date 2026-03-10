@@ -10,131 +10,122 @@
 </head>
 
 <body>
-    <!-- <nav class="bar">
-        <img class="logo" src="LogoLightMode.svg">
-        <ul>
-            <li><a href="home_v1.html">Home</a></li>
-            <li><a href="profile_1.html">Profile</a> </li>
-            <li>Maybe List</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Add A Hobby</li>
-        </ul>
-    </nav>
-    -->
-    <img class="trans" id="trans" src="transparent.svg">
-    <div class="desktop">
-    <header class="button_nav">
-        <a href="">
-            <img class="logo" src="LogoWhite.svg">
-        </a>
-    <!--Want to delete the following line as the logo usually represents the home page button     
+    <header>
+        <div class="login_card" id="login">
+            <h1>Login</h1>
+            <form>
+                <label for="email">Email</label>
+                <input id="email" type="email">
+                <br>
+                <label for="pass">Password</label>
+                <input id="pass" type="password">
+                <br>
+                <button class="sub" id="sub" type="submit">submit</button>
+            </form>
+            <p>Don't have a login? <button class="sign" id="sign">Sign up</button></p>
+        </div>
+        <div class="signup_card" id="signup">
+            <h1>Sign Up</h1>
+            <form>
+                <label for="email">Email</label>
+                <input id="email" type="email">
+                <br>
+                <label for="pass">Password</label>
+                <input id="confirm_pass" type="password">
+                <br>
+                <label for="confirm_pass">Confirm Password</label>
+                <input id="pass" type="password">
+                <br>
+                <button class="sub" id="sub2" type="submit">submit</button>
+            </form>
+            <p>Have a login? <button class="sub" id="logButton">Login</button></p>
+        </div>
+        <img id="trans" src="transparent.svg">
+        <nav class="button_nav">
+            <a href="">
+                <img class="logo" src="LogoWhite.svg">
+            </a>
+            <!--Want to delete the following line as the logo usually represents the home page button     
         <a href="home_v1.html">Home</a> -->
-        <a id="single" href="versone.html">
-            <img class="icon" src="icons/Icons-03.svg">
-        </a>
-        <a id="high_e" href="versone.html">
-            <img class="icon" src="icons/Icons-02.svg">
-        </a>
-        <a id="low_e" href="">
-            <img class="icon" src="icons/Icons-04.svg">
-        </a>
-        <a id="group" href="">
-            <img class="icon" src="icons/Icons-05.svg">
-        </a>
-        <a id="indoor" href="">
-            <img class="icon" src="icons/Icons-06.svg">
-        </a>
-        <a id="active" href="">
-            <img class="icon" src="icons/Icons-07.svg">
-        </a>
-        <a id="high_b" href="">
-            <img class="icon" src="icons/Icons-08.svg">
-        </a>
-        <a id="low_b" href="">
-            <img class="icon" src="icons/Icons-09.svg">
-        </a>
-        <a id="screen" href="">
-            <img class="icon" src="icons/Icons-10.svg">
-        </a>
-        <a href="profile">
-            <img class="icon" src="">
-        </a>
+            <div id="mid_nav">
+                <a id="single" href="versone.html">
+                    <img class="icon" src="icons/Icons-03.svg">
+                </a>
+                <a id="high_e" href="versone.html">
+                    <img class="icon" src="icons/Icons-02.svg">
+                </a>
+                <a id="low_e" href="">
+                    <img class="icon" src="icons/Icons-04.svg">
+                </a>
+                <a id="group" href="">
+                    <img class="icon" src="icons/Icons-05.svg">
+                </a>
+                <a id="indoor" href="">
+                    <img class="icon" src="icons/Icons-06.svg">
+                </a>
+                <a id="active" href="">
+                    <img class="icon" src="icons/Icons-07.svg">
+                </a>
+                <a id="high_b" href="">
+                    <img class="icon" src="icons/Icons-08.svg">
+                </a>
+                <a id="low_b" href="">
+                    <img class="icon" src="icons/Icons-09.svg">
+                </a>
+                <a id="screen" href="">
+                    <img class="icon" src="icons/Icons-10.svg">
+                </a>
+            </div>
+            <a href="profile">
+                <img class="icon" src="">
+            </a>
+        </nav>
     </header>
 
-    <div class="login_card" id="login">
-        <h1>Login</h1>
-        <form>
-            <label for="email">Email</label>
-            <input id="email" type="email">
-            <br>
-            <label for="pass">Password</label>
-            <input id="pass" type="password">
-            <br>
-            <button class="sub" id="sub" type="submit">submit</button>
-        </form>
-        <p>Don't have a login? <button class="sign" id="sign">Sign up</button></p>
-    </div>
-
-        <div class="signup_card" id="signup">
-        <h1>Sign Up</h1>
-        <form>
-            <label for="email">Email</label>
-            <input id="email" type="email">
-            <br>
-            <label for="pass">Password</label>
-            <input id="confirm_pass" type="password">
-            <br>
-            <label for="confirm_pass">Confirm Password</label>
-            <input id="pass" type="password">
-            <br>
-            <button class="sub" id="sub2" type="submit">submit</button>
-        </form>
-         <p>Have a login? <button class="sub" id="logButton">Login</button></p>
-    </div>
 
     <div class="main_body">
-    <div class="profile_card">
-        <p>Location</p>
-        <p>Calgary, AB</p>
-        <img class="profile_pic" src="sparky_light.svg">
-    </div>
+        <div class="profile_card">
+            <p>Location</p>
+            <p>Calgary, AB</p>
+            <img class="profile_pic" src="sparky_light.svg">
+        </div>
 
-    <div class="about">
-        <h1>Brand Story</h1>
-        <p id="story">Everyone has one or more hobbies that fill their time with joy and meaning. But what about those who have yet
-            to find those sparks? Sure, you can research and deep dive into multiple websites, videos, and podcasts. But
-            then you spend more time researching than doing, not everyone enjoys that. That’s why we decided to create
-            Your Sparks. An interactive website that helps you look at the multiple hobbies available with as much
-            information you need to get started. </p>
-        <!-- The following code makes the "about" card margin-top disappear.... -->
-        <img src="LogoBlack.svg">
-    </div>
-    
-    </div>
-    </div>
- 
+        <div class="about">
+            <h1>Brand Story</h1>
+            <p id="story">Everyone has one or more hobbies that fill their time with joy and meaning. But what about
+                those who have yet
+                to find those sparks? Sure, you can research and deep dive into multiple websites, videos, and podcasts.
+                But
+                then you spend more time researching than doing, not everyone enjoys that. That’s why we decided to
+                create
+                Your Sparks. An interactive website that helps you look at the multiple hobbies available with as much
+                information you need to get started. </p>
+            <!-- The following code makes the "about" card margin-top disappear.... -->
+            <img src="LogoBlack.svg">
+        </div>
 
+    </div>
+    </div>
     <!--Area for phone resolution-->
     <container class="phone">
         <div class="phone_nav">
             <img class="sparky_nav" src="sparky_light.svg">
             <ul class="nav_list">
-            <li><a href="home_v1.html">Home</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="versone.html">Hobbies</a></li>
+                <li><a href="home_v1.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="versone.html">Hobbies</a></li>
             </ul>
         </div>
         <div class="phone_card">
             <h1>Hobby Finder</h1>
             <div class="start">
-            <a href="hobby.html">Start</a>
-            </div>    
+                <a href="phone.html">Start</a>
+            </div>
             <img class="BG_logo" src="sparky_light.svg">
         </div>
         <div class="profile_button">
             <div class="p_b">
-            <a href="profile.html">Profile</a>
+                <a href="profile.html">Profile</a>
             </div>
         </div>
     </container>

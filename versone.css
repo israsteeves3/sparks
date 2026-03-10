@@ -1,7 +1,14 @@
 body {
     background: #FAFAFD;
     margin: 0px;
-    position: fixed;
+}
+
+.hobby_slides{
+         display: flex;
+         align-items: center;
+         margin: auto;
+         width: 800px;
+/*         border: 2px solid black ;*/
 }
 
 .hobby_slides img {
@@ -15,69 +22,9 @@ h2 {
     margin: 1rem;
 }
 
-
-/* .phone_card css*/
-
-.phone_card {
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    margin: auto;
-}
-
-#cardContainer {
-/* How to center element that is relavtive*/
-    position: relative;
-    z-index: 2;
-    background-color: white;
-    padding-top: 5rem;
-    margin-top: 2rem;
-    justify-items: center;
-    border-radius: 10px;
-    padding-bottom: 1rem;
-    transform-origin: bottom center;
-}
-
-.hobby_img {
-    width: 250px;
-}
-
 p {
     margin-left: 2rem;
     margin-right: 2rem;
-}
-
-.tags {
-    display: flex;
-}
-
-.tag_img{
-    height: 35px;
-    width: 35px;
-    border: 3px solid #F27DAD;
-    margin: 1rem;
-    background-color: #F27DAD;
-    padding: 2rem;
-}
-
-#things {
-    background-color: #F27DAD;
-    padding: 10px;
-    border-radius: 10px;
-
-}
-
-#newCard {
-    position: relative;
-    z-index: 2;
-    background-color: white;
-    padding-top: 5rem;
-    margin-top: 2rem;
-    justify-items: center;
-    border-radius: 10px;
-    padding-bottom: 1rem;
-    transform-origin: bottom center;
 }
 
 #sliderContainer {
@@ -89,33 +36,9 @@ p {
     margin-left: 2rem;
 }
 
-.range {
-    appearance: none;
-    outline: none;
-    width: 100%;
-    height: 600px;
-    opacity: 0.001;
-}
-
-
-@media only screen and (max-width: 768px) {
-    body { 
-    background-color: #3F4FA2;
-    width: 100%;
-    height: auto;
-    }
-
-    .hobby_img {
-    margin-left: 22%;
-    margin-top: .25rem;
-    border-radius: 10px;
-    }
-
-    .phone_card {
-        display: block;
-    }
-
-    .desktop {
-        display: none;
-    }
+.yes_info_no {
+    display: flex;
+    width: 200px;
+    margin: auto;
+ /*   border: 2px solid black;*/
 }
