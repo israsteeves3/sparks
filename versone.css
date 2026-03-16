@@ -3,21 +3,21 @@ body {
     margin: 0px;
 }
 
-.hobby_slides{
+.hobby_card{
          display: flex;
          align-items: center;
          margin: auto;
-         width: 800px;
 /*         border: 2px solid black ;*/
 }
 
-.hobby_slides img {
+.hobby_card img {
     height: 400px;
     width: auto;
     margin: 1rem;
+    border-radius: 10px;
 }
 
-h2 {
+h1 {
     text-align: center;
     margin: 1rem;
 }
@@ -30,15 +30,29 @@ p {
 #sliderContainer {
     position: absolute;
     z-index: 99;
-    width: 80%;
-    height: 50%;
     margin-top: 100px;
     margin-left: 2rem;
 }
 
 .yes_info_no {
     display: flex;
-    width: 200px;
+    width: 300px;
     margin: auto;
  /*   border: 2px solid black;*/
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin-left: 2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+#no {
+    background-color: red;
+}
+
+#yes {
+    background-color: green;
 }

@@ -17,6 +17,41 @@ function changeOpacity(){
 
 document.getElementById('sliderRange').addEventListener('input',changeOpacity);
 
+function showYes(){
+    let v = document.getElementById('sliderRange').value;
+    let p = v/100;
+    let o = p + .50;
+    document.getElementById('yes').style.opacity = o;
+    if (v >= 50){
+    document.getElementById('yes').style.opacity = "0";
+    }
+    if (v <= 1){
+    document.getElementById('yes').style.opacity = "0";
+    }
+    else{
+
+    }
+}
+
+document.getElementById('sliderRange').addEventListener('input',showYes);
+
+function showNo(){
+    let v = document.getElementById('sliderRange').value;
+    let n = Math.abs(v);
+    let p = n/100;
+    let o = p + .50;
+    document.getElementById('no').style.opacity = o;
+    if (v <= -45){
+    document.getElementById('no').style.opacity = "0";
+    }
+    if (v >= 0){
+    document.getElementById('no').style.opacity = "0";
+    }
+    else{}
+}
+
+document.getElementById('sliderRange').addEventListener('input',showNo);
+
 //This function is to remove the card and bring forth the next card.
 function removeCard(){
     let v = document.getElementById('sliderRange').value;
