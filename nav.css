@@ -35,6 +35,13 @@ nav {
     padding: 1rem;
 }
 
+#profile {
+    font-size:large;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
 .phone_nav {
     display: none;
 }

@@ -7,7 +7,8 @@ body {
          display: flex;
          align-items: center;
          margin: auto;
-/*         border: 2px solid black ;*/
+
+         border: 2px solid black ;
 }
 
 .hobby_card img {
@@ -27,18 +28,18 @@ p {
     margin-right: 2rem;
 }
 
-#sliderContainer {
-    position: absolute;
-    z-index: 99;
-    margin-top: 100px;
+.slides {
     margin-left: 2rem;
 }
 
 .yes_info_no {
     display: flex;
-    width: 300px;
-    margin: auto;
- /*   border: 2px solid black;*/
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    margin-top: 500px;
+    border: 2px solid black;
+   
 }
 
 button {
@@ -47,6 +48,7 @@ button {
     margin-left: 2rem;
     border-radius: 10px;
     border: none;
+    font-size: x-large;
 }
 
 #no {
@@ -55,4 +57,36 @@ button {
 
 #yes {
     background-color: green;
+}
+
+#hobbyCard1 {
+    position: absolute;
+    background-color: blueviolet;
+}
+
+#hobbyCard2 {
+    position: absolute;    
+    background-color: pink;
+}
+
+#hobbyCard3 {
+    position: absolute;    
+    background-color: orange;
+}
+
+#hobbyCard4 {
+    position: absolute;  
+    background-color: lightblue;  
+
+}
+#hobbyCard5 {
+    position: absolute;  
+    background-color: purple;  
+   
+}
+
+#finalCard {
+    position: absolute;
+    background-color: yellow;
+
 }

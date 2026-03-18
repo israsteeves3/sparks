@@ -1,0 +1,115 @@
+@media only screen and (max-width: 768px) {
+body { 
+    background-color: #3F4FA2;
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+.hobby_img {
+    margin-left: 22%;
+    margin-top: .25rem;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.phone_card {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#no {
+    position: absolute;
+    top: 200px;
+    z-index: 98;
+    opacity: 0;
+}
+
+#yes {
+    position: absolute;
+    top: 200px;
+    z-index: 98;
+    opacity: 0;
+}
+
+p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.tags {
+    display: flex;
+}
+
+.tag_img{
+    height: 35px;
+    width: 35px;
+    border: 3px solid #F27DAD;
+    margin: 1rem;
+    background-color: #F27DAD;
+    padding: 2rem;
+}
+
+#things {
+    background-color: #F27DAD;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.card {
+    position: absolute;
+    z-index: 88;
+    background-color: white;
+    padding-top: 5rem;
+    margin-top: 2rem;
+    justify-items: center;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    transform-origin: bottom center;
+}
+
+.sliderContainer {
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    margin-top: 200px;
+    margin-right: 50px;
+}
+
+.rangeArea {
+    appearance: none;
+    outline: none;
+    width: 400px;
+    height: 600px;
+    opacity: 0.01;
+}
+
+#sliderContainer1 {
+    position: absolute;
+
+
+}
+
+#sliderContainer2 {
+    position: absolute;
+}
+
+#sliderContainer3 {
+    position: absolute;
+
+}
+
+#sliderContainer4 {
+    position: absolute;
+
+}
+
+#sliderContainer5 {
+    position: absolute;
+
+}
+
+}
