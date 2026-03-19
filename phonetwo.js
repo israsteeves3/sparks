@@ -1,28 +1,9 @@
 
-function showNo(){
-    let v = document.getElementById('sliderRange1').value;
 
 
-    if (v <= -45){
-
-    }
-
-    else{}
-}
-
-document.getElementById('sliderRange1').addEventListener('input',showNo);
-
-//This function is to rotate the card
-function changeValue(){
-    console.log(document.getElementById('sliderRange1').value);
-    let v = document.getElementById('sliderRange1').value;
-    document.getElementById('cardContainer1').style.transform="rotate(" + v + "deg)";
-}
-document.getElementById('sliderRange1').addEventListener('input',changeValue);
-
-//This function is to remove the card and bring forth the next card.
 function removeCard(){
     let v = document.getElementById('sliderRange1').value; 
+    console.log(v);
     let n = Math.abs(v);
     let t = n/100;   
     let p = v/100;
@@ -30,22 +11,26 @@ function removeCard(){
     let l = t + .50;
     document.getElementById('no').style.opacity = l;
     document.getElementById('yes').style.opacity = o;
+    document.getElementById('cardContainer1').style.transform="rotate(" + v + "deg)";
     if (v <= -45){
         document.getElementById('sliderContainer1').style.display = "none";
         document.getElementById('cardContainer1').style.display = "none";
         document.getElementById('no').style.opacity = "0";
     }
     if (v >= 0){
+
     document.getElementById('no').style.opacity = "0";
     }
     if (v <= 1){
     document.getElementById('yes').style.opacity = "0";
+
     }
     
     if (v >= 50){
         document.getElementById('sliderContainer1').style.display = "none";
         document.getElementById('cardContainer1').style.display = "none";
         document.getElementById('yes').style.opacity = "0";
+
     }
     
     else { 
@@ -180,3 +165,4 @@ function removeCardFive(){
     }
 }
 document.getElementById('sliderRange5').addEventListener('input',removeCardFive);
+

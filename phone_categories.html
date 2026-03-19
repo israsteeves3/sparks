@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+    <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Your Sparks</title>
-    <link rel="stylesheet" href="versone.css">
+    <title>Categories</title>
     <link rel="stylesheet" href="nav.css">
-</head>
+    <link rel="stylesheet" href="categories.css">
+    </head>
 <body>
-    <header>
-        <nav class="button_nav">
-            <a href="index.html">
-                <img class="logo" src="LogoWhite.svg" alt="Your Spark's Logo">
-            </a>
-            <!--Want to delete the following line as the logo usually represents the home page button     
-        <a href="home_v1.html">Home</a> -->
-            <div id="mid_nav">
+        <div class="phone_nav">
+            <a href="home_v1.html"><img class="sparky_nav" src="sparky_light.svg" alt="Your Sparks Logo"></a>
+            <ul class="nav_list">
+            <li><a href="home_v1.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="versone.html">Hobbies</a></li>
+            </ul>
+        </div>
+            <div id="categories">
                 <a id="single" href="single.html">
                     <img class="icon" src="icons/Icons-03.svg" alt="Icon representing a single person ">
                 </a>
@@ -44,31 +45,6 @@
                     <img class="icon" src="icons/Icons-10.svg" alt="Icon representing screen activity">
                 </a>
             </div>
-            <a href="profile">
-                <p>Profile Settings</p>
-            </a>
-        </nav>
-    </header>
-    <div class="slides">
-        <div class="hobby_card" id="hobbyCard">
-            <img src="photos/appic-nCrQ8sMa0c8-unsplash.jpg" alt="Photo of people Go Karting">
-           <div class="hobby_info">
-            <h1>Hobby Title</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-        </div>
-        </div>
 
-        <div class="yes_info_no">
-            <button class="choices" id="no">&#10008;</button>
-            <button class="choices" id="yes">&#10004;</button>
-        </div>
-    </div>
-
-   
-        <script src="versone.js"></script>
 </body>
 </html>

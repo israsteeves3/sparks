@@ -64,6 +64,9 @@ a {
 */
 
 @media only screen and (max-width: 768px) {
+header{
+    display: none;
+}
 
 .phone_nav {
     display: block;
