@@ -58,36 +58,36 @@ button {
 
 #hobbyCard1 {
     position: absolute;
-    background-color: blueviolet;
+    background-color: white;
     border-radius: 10px;
 }
 
 #hobbyCard2 {
     position: absolute;    
-    background-color: pink;
+    background-color: white;
     border-radius: 10px;
 }
 
 #hobbyCard3 {
     position: absolute;    
-    background-color: orange;
+    background-color: white;
     border-radius: 10px;
 }
 
 #hobbyCard4 {
     position: absolute;  
-    background-color: lightblue;  
+    background-color: white;  
     border-radius: 10px;
 }
 #hobbyCard5 {
     position: absolute;  
-    background-color: purple;  
+    background-color: white;  
     border-radius: 10px;
 }
 
 #finalCard {
     position: absolute;
-    background-color: yellow;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -100,6 +100,10 @@ button {
 }
 
 #like {
+    display: none;
+}
+
+.sliderContainer{
     display: none;
 }
 
@@ -210,6 +214,7 @@ p {
     width: 100%;
     margin-top: 200px;
     margin-right: 50px;
+    display: block;
 }
 
 .rangeArea {
