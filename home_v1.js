@@ -27,3 +27,7 @@ logButton.addEventListener("click", function (e){
     document.getElementById("login").style.display = "block";
     e.preventDefault();
 })
+
+document.getElementById("nav_icon").addEventListener("click", function(){
+    document.getElementById("lil_nav").style.display = "block";
+})

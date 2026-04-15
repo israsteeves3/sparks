@@ -6,58 +6,60 @@
     <meta name="viewport" content="width=device-width">
     <title>Profile Settings</title>
     <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="home_v1.css">
+    <link rel="stylesheet" href="profile.css">
 </head>
 
 <body>
-    <header>
+ <header>
         <nav class="button_nav">
             <a href="index.html">
                 <img class="logo" src="LogoWhite.svg" alt="Your Spark's Logo">
             </a>
-
             <div id="mid_nav">
                 <a id="single" href="single.html">
-                    <img class="icon" src="icons/Icons-03.svg" alt="Icon representing a single person ">
+                    <img class="icon" src="icons/Solo.webp" alt="Icon representing a single person ">
                 </a>
                 <a id="group" href="group.html">
-                    <img class="icon" src="icons/Icons-05.svg" alt="Icon representing a group of people">
+                    <img class="icon" src="icons/Team.webp" alt="Icon representing a group of people">
                 </a>
                 <a id="low_e" href="low_effort.html">
-                    <img class="icon" src="icons/Icons-04.svg" alt="Icon representing low effort">
+                    <img class="icon" src="icons/low effort.webp" alt="Icon representing low effort">
                 </a>
                 <a id="high_e" href="high_effort.html">
-                    <img class="icon" src="icons/Icons-02.svg" alt="Icon representing high effort">
+                    <img class="icon" src="icons/high effort.webp" alt="Icon representing high effort">
                 </a>
                 <a id="indoor" href="indoor.html">
-                    <img class="icon" src="icons/Icons-06.svg" alt="Icon representing indoor activity">
+                    <img class="icon" src="icons/indoor.webp" alt="Icon representing indoor activity">
                 </a>
                 <a id="active" href="physical.html">
-                    <img class="icon" src="icons/Icons-07.svg" alt="Icon representing physical activity">
+                    <img class="icon" src="icons/outdoor.webp" alt="Icon representing physical activity">
+                </a>
+                <a id="high_b" href="high_budget.html">
+                    <img class="icon" src="icons/highcost.webp" alt="Icon representing low budget">
                 </a>
                 <a id="low_b" href="low_budget.html">
-                    <img class="icon" src="icons/Icons-09.svg" alt="Icon representing low budget">
+                    <img class="icon" src="icons/lowcost.webp" alt="Icon representing high budget">
                 </a>
-                <a id="high_b" href="">
-                    <img class="icon" src="icons/Icons-08.svg" alt="Icon representing high budget">
-                </a>
-                <a id="screen" href="">
-                    <img class="icon" src="icons/Icons-10.svg" alt="Icon representing screen activity">
+                <a id="screen" href="screen.html">
+                    <img class="icon" src="icons/Screen.webp" alt="Icon representing screen activity">
                 </a>
             </div>
             <a href="profile">
-                <p id="profile">Profile Settings</p>
+                <img class="icon" src="profile.html" alt="icon representing profile settings">
             </a>
         </nav>
-    </header>    
+    </header> 
     <div id="profile_card">
+        <p>Photo</p>
+    <img  src="sparky_light.svg" id="small">
     <form>
-        <label for="name">Full Name</label>
-        <input id="name" type="text">
-        <label for="email">Email</label>
-        <input id="email" type="email">
-        <label for="age">Age</label>
-        <input id="age" type="number">
+        <label class="f-item" for="name">Full Name</label>
+        <input class="f-item" id="name" type="text">
+        <label class="f-item" for="email">Email</label>
+        <input class="f-item" id="email" type="email">
+        <label class="f-item" for="age">Age</label>
+        <input class="f-item" id="age" type="number">
+        <input class="f-item" id="sub" type="submit">
     </form>
     </div>
     <script src="home_v1.js"></script>

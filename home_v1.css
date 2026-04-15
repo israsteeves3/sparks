@@ -72,7 +72,6 @@ form {
 .profile_card {
     width: 200px;
     margin-top: 50px;
-    background-color: aqua;
 }
 
 .profile_card img {
@@ -95,7 +94,7 @@ form {
         display: none;
     }
 
-    .phone {
+    .phone{
         display: block;
     }
 

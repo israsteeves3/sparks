@@ -12,11 +12,19 @@
 <body>
     <header>
         <nav class="button_nav">
+            <div id="phone_nav">
+                <button id="nav_icon">&#8801;</button>
+                <ul class="p_nav" id="lil_nav">
+                    <li><a>Home</a></li>
+                    <li><a>Profile</a></li>
+                    <li><a>Categories</a></li>
+            </div>
+
             <a href="index.html">
                 <img class="logo" src="LogoWhite.svg" alt="Your Spark's Logo">
             </a>
             <div id="mid_nav">
-                               <a id="single" href="single.html">
+                <a id="single" href="single.html">
                     <img class="icon" src="icons/Solo.webp" alt="Icon representing a single person ">
                 </a>
                 <a id="group" href="group.html">
@@ -34,13 +42,13 @@
                 <a id="active" href="physical.html">
                     <img class="icon" src="icons/outdoor.webp" alt="Icon representing physical activity">
                 </a>
-                <a id="high_b" href="">
+                <a id="high_b" href="high_budget.html">
                     <img class="icon" src="icons/highcost.webp" alt="Icon representing low budget">
                 </a>
-                <a id="low_b" href="">
+                <a id="low_b" href="low_budget.html">
                     <img class="icon" src="icons/lowcost.webp" alt="Icon representing high budget">
                 </a>
-                <a id="screen" href="">
+                <a id="screen" href="screen.html">
                     <img class="icon" src="icons/Screen.webp" alt="Icon representing screen activity">
                 </a>
             </div>
@@ -50,6 +58,11 @@
         </nav>
     </header>
 
+
+    <div id="svg">
+        <img src="icons/No_white.svg" id="no_one" class="no">
+        <img src="icons/Yes_white.svg" id="yes_one" class="yes">
+    </div>
     <div class="slides">
         <div class="hobby_card" id="finalCard">
             <img src="photos/end.avif" alt="Orange card with text stating, the end (or the beginning)">
@@ -66,12 +79,18 @@
                 <p>Inital Cost: $30</p>
                 <p>Candlemaking is a craft where you melt and pour wax, add fragrance or color, and create candles that
                     are both functional and decorative. </p>
-                <p>Items needed for hobby:</p>
-                <ul>
-                    <li>Bees wax</li>
-                    <li>Wicks</li>
-                    <li>Fragrance</li>
-                </ul>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Bees wax</li>
+                        <li>Wicks</li>
+                        <li>Fragrance</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
             </div>
         </div>
         <div class="hobby_card" id="hobbyCard4">
@@ -81,12 +100,19 @@
                 <h1>Drawing</h1>
                 <p>Drawing is a creative hobby where you use pencils or pens to create images on paper. It helps improve
                     creativity and allows you to express ideas, emotions, or observations through art.</p>
-                <p>Items needed for hobby:</p>
-                <ul>
-                    <li>Pencil</li>
-                    <li>Sketchbook</li>
-                    <li>Eraser</li>
-                </ul>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Pencil</li>
+                        <li>Sketchbook</li>
+                        <li>Eraser</li>
+                    </ul>
+                </div>
+
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
             </div>
         </div>
         <div class="hobby_card" id="hobbyCard3">
@@ -96,12 +122,18 @@
                 <h1>Painting</h1>
                 <p>Painting is a creative hobby where you use paint and brushes to create artwork on paper or canvas. It
                     allows you to express ideas, emotions, and imagination through colors and shapes.</p>
-                <p>Items needed for hobby:</p>
-                <ul>
-                    <li>Paint Brush</li>
-                    <li>Paint</li>
-                    <li>Paper or Canvas</li>
-                </ul>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Paint Brush</li>
+                        <li>Paint</li>
+                        <li>Paper or Canvas</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
             </div>
         </div>
         <div class="hobby_card" id="hobbyCard2">
@@ -112,12 +144,18 @@
                 <p>Scrapbooking is a creative hobby where you arrange photos, stickers, and decorations in a book to
                     preserve memories. It allows you to tell stories and express creativity through design and personal
                     experiences.</p>
-                <p>Items needed for hobby:</p>
-                <ul>
-                    <li>Photos</li>
-                    <li>Stickers or decorations</li>
-                    <li>Scrapbook Album</li>
-                </ul>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Photos</li>
+                        <li>Stickers or decorations</li>
+                        <li>Scrapbook Album</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
             </div>
         </div>
         <div class="hobby_card" id="hobbyCard1">
@@ -128,12 +166,18 @@
                 <p>Soap making is a hands-on hobby where you mix ingredients and pour liquid soap into molds to create
                     decorative or scented soaps. It is a relaxing and creative activity that lets you customize colors,
                     shapes, and fragrances.</p>
-                <p>Items needed for hobby:</p>
-                <ul>
-                    <li>Soap Base</li>
-                    <li>Silicone Mold</li>
-                    <li>Fragrance Oil</li>
-                </ul>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Soap Base</li>
+                        <li>Silicone Mold</li>
+                        <li>Fragrance Oil</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
             </div>
         </div>
     </div>
@@ -142,133 +186,20 @@
         <button class="choices" id="yes">&#10004;</button>
     </div>
     <!--End of desktop code-->
-    <!--The start of the phone code-->
-    <div class="phone_card">
-        <div class="phone_nav">
-            <a href="home_v1.html"><img class="sparky_nav" src="sparky_light.svg" alt="Your Sparks Logo">
-            </a>
-            <ul class="nav_list">
-                <li><a href="home_v1.html">Home</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="versone.html">Hobbies</a></li>
-            </ul>
-        </div>
-        <img id="no" src="icons/No.svg" alt="X indicating 'no'.">
-        <img id="yes" src="icons/Yes.svg" alt="Heart indicating 'yes'.">
-        <div id="cardS">
-            <!--Final Card-->
-            <div class="card" id="cardContainer6">
-                <img class="hobby_img" src="photos/end.avif"
-                    alt="Orange card with text stating, the end (or the beginning)">
-                <h2>All Done?</h2>
-                <p>Looks Like it!</p>
-                <p>Go to your "liked" list and see what hobby can be started today!</p>
-            </div>
+    <div class="sliderContainer">
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange1" step="5">
 
-            <!--fifth card -->
-            <div class="card" id="cardContainer5">
-                <img class="hobby_img" src="photos/single/candlemaking.avif"
-                    alt="Someone trying to break a brick of wax to make candles with, surrounded by a bunch of ingrdients and finished candles.">
-                <h2>Candle Making</h2>
-                <p>Candlemaking is a craft where you melt and pour wax, add fragrance or color, and create candles that
-                    are both functional and decorative.</p>
-                <div id="things">
-                    <p>List of items needed for this hobby:</p>
-                    <ul>
-                        <li>Soap Base</li>
-                        <li>Silicone Mold</li>
-                        <li>Fragrance Oil</li>
-                    </ul>
-                </div>
-            </div>
-            <!--fourth Card-->
-            <div class="card" id="cardContainer4">
-                <img class="hobby_img" src="photos/single/drawing.avif"
-                    alt="Person sketching a face in a sketchbook using a pencil, with drawing tools and reference book on the table.">
-                <h2>Drawing</h2>
-                <p>Drawing is a creative hobby where you use pencils or pens to create images on paper. It helps improve creativity and allows you to express ideas, emotions, or observations through art.</p>
-                <div id="things">
-                    <p>List of items needed for this hobby:</p>
-                    <ul>
-                        <li>Pencil</li>
-                        <li>Eraser</li>
-                        <li>Sketchbook</li>
-                    </ul>
-                </div>
-            </div>
-            <!--Third Card-->
-            <div class="card" id="cardContainer3">
-                <img class="hobby_img" src="photos/single/painting.avif"
-                    alt="Person painting a smiley face with a cup of water, and paint on a paint board.">
-                <h2>Painting</h2>
-                <p>Painting is a creative hobby where you use paint and brushes to create artwork on paper or canvas. It allows you to express ideas, emotions, and imagination through colors and shapes.</p>
-                <div id="things">
-                    <p>List of items needed for this hobby:</p>
-                    <ul>
-                        <li>Paint</li>
-                        <li>Paint Brush</li>
-                        <li>Paper or Canvas</li>
-                    </ul>
-                </div>
-            </div>
-            <!--second Card-->
-            <div class="card" id="cardContainer2">
-                <img class="hobby_img" src="photos/single/scrapbook.avif"
-                    alt="Person adding a sticker on a page that has been scrapbooked. surrounded by a bunch of items used for scrapbooking.">
-                <h2>Scrapbooking</h2>
-                <p>Scrapbooking is a creative hobby where you arrange photos, stickers, and decorations in a book to preserve memories. It allows you to tell stories and express creativity through design and personal experiences.</p>
-                <div id="things">
-                    <p>List of items needed for this hobby:</p>
-                    <ul>
-                        <li>Photos</li>
-                        <li>Stickers or Decorations</li>
-                        <li>Scrapbook Album </li>
-                    </ul>
-                </div>
-            </div>
-            <!--First Card-->
-            <div class="card" id="cardContainer1">
-                <img class="hobby_img" src="photos/single/soapmaking copy.avif"
-                    alt="Person pouring hot liquid soap into a silicone mould. Surrounded by soap ingredients and already made soaps.">
-                <h2>Soap Making</h2>
-                <p>Soap making is a hands-on hobby where you mix ingredients and pour liquid soap into molds to create decorative or scented soaps. It is a relaxing and creative activity that lets you customize colors, shapes, and fragrances.</p>
-                <div id="things">
-                    <p>List of items needed for this hobby:</p>
-                    <ul>
-                        <li>Soap Base</li>
-                        <li>Silicone Mold</li>
-                        <li>Fragrance Oil</li>
-                    </ul>
-                </div>
-            </div>
-            <!--Cards End-->
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange2" step="5">
 
-        </div>
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange3" step="5">
 
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange4" step="5">
 
-        <div class="sliderContainer">
-            <div id="sliderContainer5">
-                <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange5" step="5">
-            </div>
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange5" step="5">
+    </div>
 
-            <div id="sliderContainer4">
-                <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange4" step="5">
-            </div>
-
-            <div id="sliderContainer3">
-                <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange3" step="5">
-            </div>
-
-            <div id="sliderContainer2">
-                <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange2" step="5">
-            </div>
-
-            <div id="sliderContainer1">
-                <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange1" step="5">
-            </div>
-        </div>
-        <script src="phonetwo.js"></script>
-        <script src="versone.js"></script>
+    <script src="phonetwo.js"></script>
+    <script src="versone.js"></script>
 </body>
 
 </html>

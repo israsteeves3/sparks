@@ -34,13 +34,13 @@
                 <a id="active" href="physical.html">
                     <img class="icon" src="icons/outdoor.webp" alt="Icon representing physical activity">
                 </a>
-                <a id="high_b" href="">
+                <a id="high_b" href="high_budget.html">
                     <img class="icon" src="icons/highcost.webp" alt="Icon representing low budget">
                 </a>
-                <a id="low_b" href="">
+                <a id="low_b" href="low_budget.html">
                     <img class="icon" src="icons/lowcost.webp" alt="Icon representing high budget">
                 </a>
-                <a id="screen" href="">
+                <a id="screen" href="screen.html">
                     <img class="icon" src="icons/Screen.webp" alt="Icon representing screen activity">
                 </a>
             </div>
@@ -49,6 +49,12 @@
             </a>
         </nav>
     </header>
+
+    <div id="svg">
+        <img src="icons/No_white.svg" id="no_one" class="no">
+        <img src="icons/Yes_white.svg" id="yes_one" class="yes">
+    </div>
+
     <div class="slides">
         <div class="hobby_card" id="finalCard">
             <img src="photos/end.avif" alt="Orange square with text stating, the end or the beginning?">
@@ -62,14 +68,21 @@
                 alt="Person whisking ingredients in a bowl with baking tools and freshly baked cookies on a tray nearby.">
             <div class="hobby_info">
                 <h1>Baking</h1>
+                <p>Inital Cost: $30</p>
                 <p>Baking is a hobby where you prepare and cook food like cookies, cakes, or bread using an oven. It
                     allows you to create delicious treats while enjoying a fun and creative process.</p>
-                <p>Items needed for hobby:</p>
-                <ul>
-                    <li>Ingredients</li>
-                    <li>Baking tools</li>
-                    <li>Oven</li>
-                </ul>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Ingredients</li>
+                        <li>Baking tools</li>
+                        <li>Oven</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
             </div>
         </div>
         <div class="hobby_card" id="hobbyCard4">
@@ -77,16 +90,23 @@
                 alt="A person pouring a drink out from a drink shaker into a cup filled with ice.">
             <div class="hobby_info">
                 <h1>Bartending</h1>
+                <p>Inital Cost: $30</p>
                 <p>Bartending, also known as mixology, is the art and skill of preparing and serving drinks, especially
                     cocktails. As a hobby, it involves experimenting with different ingredients, flavors, and techniques
                     to create unique and enjoyable beverages. Many people enjoy it as a social and interactive activity,
                     where they can craft drinks for friends and learn new combinations over time.</p>
-                <p>Items needed for hobby:</p>
-                <ul>
-                    <li>Ingredients</li>
-                    <li>Cocktail Shaker</li>
-                    <li>Ice</li>
-                </ul>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Ingredients</li>
+                        <li>Cocktail Shaker</li>
+                        <li>Ice</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
             </div>
         </div>
         <div class="hobby_card" id="hobbyCard3">
@@ -94,45 +114,69 @@
                 alt="A Person mixing blue hair dye with conditioner in a small bowl.">
             <div class="hobby_info">
                 <h1>Hair Dye</h1>
+                <p>Inital Cost: $30</p>
                 <p>Hair dyeing as a hobby involves experimenting with different colors, styles, and techniques to change
                     or enhance hair appearance. It allows for creative self-expression, whether through bold, vibrant
                     shades or subtle highlights and blends. It can be both fun and rewarding, giving a sense of
                     transformation and personal style while building practical skills over time.</p>
-                <ul>
-                    <li>Hair Bleach</li>
-                    <li>Hair Dye</li>
-                    <li>Hair Repair Conditioner</li>
-                </ul>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Hair Bleach</li>
+                        <li>Hair Dye</li>
+                        <li>Hair Repair Conditioner</li>
+                    </ul>
                 </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
+            </div>
         </div>
         <div class="hobby_card" id="hobbyCard2">
             <img src="photos/high_cost/model_building.avif"
                 alt="A person sticking a widow sticker to the model that they are working on. Around them is the rest of the model building kit components.">
             <div class="hobby_info">
                 <h1>Model Building</h1>
+                <p>Inital Cost: $30</p>
                 <p>Model building is a hobby that involves creating detailed miniature replicas of objects such as cars,
                     airplanes, ships, or buildings. It requires patience, precision, and creativity, as hobbyists
                     assemble and paint parts to bring models to life.</p>
-            <ul>
-                    <li>Model Building Kit</li>
-                    <li>Tweezers</li>
-                    <li>Patience</li>
-                </ul>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Model Building Kit</li>
+                        <li>Tweezers</li>
+                        <li>Patience</li>
+                    </ul>
                 </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
+            </div>
         </div>
         <div class="hobby_card" id="hobbyCard1">
             <img src="photos/high_cost/photography.avif"
                 alt="A person taking a photo of another person with a digital camera.">
             <div class="hobby_info">
                 <h1>Photography</h1>
+                <p>Initial Cost: $30</p>
                 <p>Photography as a hobby is the practice of capturing images for enjoyment, creativity, and personal
                     expression rather than for professional purposes. It involves using a camera to explore subjects
                     like nature, people, architecture, or everyday life.</p>
-                <ul>
-                    <li>Camera</li>
-                    <li>Lighting (Natural or Artificial)</li>
-                    <li>Time</li>
-                </ul>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Camera</li>
+                        <li>Lighting (Natural or Artificial)</li>
+                        <li>Time</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
             </div>
         </div>
     </div>
@@ -140,143 +184,21 @@
         <button class="choices" id="no">&#10008;</button>
         <button class="choices" id="yes">&#10004;</button>
     </div>
-    <!--Start of phone code-->
-    <div class="phone_card">
-        <div class="phone_nav">
-            <a href="home_v1.html"><img class="sparky_nav" src="sparky_light.svg" alt="Your Sparks Logo">
-            </a>
-            <ul class="nav_list">
-                <li><a href="home_v1.html">Home</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="versone.html">Hobbies</a></li>
-            </ul>
-        </div>
-        <img id="no" src="icons/No.svg" alt="X indicating 'no'.">
-        <img id="yes" src="icons/Yes.svg" alt="Heart indicating 'yes'.">
-        <div id="cardS">
-            <!--Final Card-->
-            <div class="card" id="cardContainer6">
-                <img class="hobby_img" src="photos/end.avif" alt="Photo of people Go Karting">
-                <h2>All Done?</h2>
-                <p>Looks Like it!</p>
-                <p>Go to your "liked" list and see what hobby can be started today!</p>
-            </div>
 
-            <!--fifth card -->
-            <div class="card" id="cardContainer5">
-                <img class="hobby_img" src="photos/high_cost/baking.avif"
-                                alt="Person whisking ingredients in a bowl with baking tools and freshly baked cookies on a tray nearby.">
-                <h2>Baking</h2>
-                <p>Baking is a hobby where you prepare and cook food like cookies, cakes, or bread using an oven. It
-                    allows you to create delicious treats while enjoying a fun and creative process.</p>
-                <div id="things">
-                    <p>List of items needed for this hobby:</p>
-                <ul>
-                    <li>Ingredients</li>
-                    <li>Baking tools</li>
-                    <li>Oven</li>
-                </ul>
-                </div>
-            </div>
-            <!--fourth Card-->
-            <div class="card" id="cardContainer4">
-                <img class="hobby_img" src="photos/high_cost/bartending.avif"
-                    alt="A person pouring a drink out from a drink shaker into a cup filled with ice.">
-                <h2>Mixology</h2>
-                <p>Bartending, also known as mixology, is the art and skill of preparing and serving drinks, especially
-                    cocktails. As a hobby, it involves experimenting with different ingredients, flavors, and techniques
-                    to create unique and enjoyable beverages. Many people enjoy it as a social and interactive activity,
-                    where they can craft drinks for friends and learn new combinations over time.</p>
-                <div id="things">
-                    <p>List of items needed for this hobby:</p>
-                <ul>
-                    <li>Ingredients</li>
-                    <li>Cocktail Shaker</li>
-                    <li>Ice</li>
-                </ul>
-                </div>
-            </div>
-            <!--Third Card-->
-            <div class="card" id="cardContainer3">
-                <img class="hobby_img" src="photos/high_cost/hairdye.avif"
-                     alt="A Person mixing blue hair dye with conditioner in a small bowl.">
-                <h2>Hair Dye</h2>
-                <p>Hair dyeing as a hobby involves experimenting with different colors, styles, and techniques to change
-                    or enhance hair appearance. It allows for creative self-expression, whether through bold, vibrant
-                    shades or subtle highlights and blends. It can be both fun and rewarding, giving a sense of
-                    transformation and personal style while building practical skills over time.</p>
-                <div id="things">
-                    <p>List of items needed for this hobby:</p>
-                <ul>
-                    <li>Hair Bleach</li>
-                    <li>Hair Dye</li>
-                    <li>Hair Repair Conditioner</li>
-                </ul>
-                </div>
-            </div>
-            <!--second Card-->
-            <div class="card" id="cardContainer2">
-                <img class="hobby_img" src="photos/high_cost/model_building.avif"
-                alt="A person sticking a widow sticker to the model that they are working on. Around them is the rest of the model building kit components.">
-                <h2>Model Building</h2>
-                <p>Model building is a hobby that involves creating detailed miniature replicas of objects such as cars,
-                    airplanes, ships, or buildings. It requires patience, precision, and creativity, as hobbyists
-                    assemble and paint parts to bring models to life.</p>
-                <div id="things">
-                    <p>List of items needed for this hobby:</p>
-                <ul>
-                    <li>Model Building Kit</li>
-                    <li>Tweezers</li>
-                    <li>Patience</li>
-                </ul>
-                </div>
-            </div>
-            <!--First Card-->
-            <div class="card" id="cardContainer1">
-                <img class="hobby_img" src="photos/high_cost/photography.avif"
-                        alt="A person taking a photo of another person with a digital camera.">
-                <h2>Photography</h2>
-                <p>Photography as a hobby is the practice of capturing images for enjoyment, creativity, and personal
-                    expression rather than for professional purposes. It involves using a camera to explore subjects
-                    like nature, people, architecture, or everyday life.</p>
-                <div id="things">
-                    <p>List of items needed for this hobby:</p>
-                <ul>
-                    <li>Camera</li>
-                    <li>Lighting (Natural or Artificial)</li>
-                    <li>Time</li>
-                </ul>
-                </div>
-            </div>
-            <!--Cards End-->
+    <div class="sliderContainer">
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange1" step="5">
 
-        </div>
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange2" step="5">
 
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange3" step="5">
 
-        <div class="sliderContainer">
-            <div id="sliderContainer5">
-                <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange5" step="5">
-            </div>
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange4" step="5">
 
-            <div id="sliderContainer4">
-                <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange4" step="5">
-            </div>
-
-            <div id="sliderContainer3">
-                <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange3" step="5">
-            </div>
-
-            <div id="sliderContainer2">
-                <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange2" step="5">
-            </div>
-
-            <div id="sliderContainer1">
-                <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange1" step="5">
-            </div>
-        </div>
-        <script src="phonetwo.js"></script>
-        <!--End of phone Code-->
-        <script src="versone.js"></script>
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange5" step="5">
+    </div>
+    <script src="phonetwo.js"></script>
+    <!--End of phone Code-->
+    <script src="versone.js"></script>
 </body>
 
 </html>

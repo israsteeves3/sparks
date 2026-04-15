@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="versone.css">
     <link rel="stylesheet" href="nav.css">
 </head>
+
 <body>
     <header>
         <nav class="button_nav">
@@ -16,7 +18,7 @@
             <!--Want to delete the following line as the logo usually represents the home page button     
         <a href="home_v1.html">Home</a> -->
             <div id="mid_nav">
-                                <a id="single" href="single.html">
+                <a id="single" href="single.html">
                     <img class="icon" src="icons/Solo.webp" alt="Icon representing a single person ">
                 </a>
                 <a id="group" href="group.html">
@@ -34,13 +36,13 @@
                 <a id="active" href="physical.html">
                     <img class="icon" src="icons/outdoor.webp" alt="Icon representing physical activity">
                 </a>
-                <a id="high_b" href="">
+                <a id="high_b" href="high_budget.html">
                     <img class="icon" src="icons/highcost.webp" alt="Icon representing low budget">
                 </a>
-                <a id="low_b" href="">
+                <a id="low_b" href="low_budget.html">
                     <img class="icon" src="icons/lowcost.webp" alt="Icon representing high budget">
                 </a>
-                <a id="screen" href="">
+                <a id="screen" href="screen.html">
                     <img class="icon" src="icons/Screen.webp" alt="Icon representing screen activity">
                 </a>
             </div>
@@ -49,78 +51,131 @@
             </a>
         </nav>
     </header>
+
+    <div id="svg">
+        <img src="icons/No_white.svg" id="no_one" class="no">
+        <img src="icons/Yes_white.svg" id="yes_one" class="yes">
+    </div>
+
     <div class="slides">
         <div class="hobby_card" id="finalCard">
             <img src="photos/end.avif" alt="Orange square with text stating, the end or the beginning?">
             <div class="hobby_info">
-            <h1>Hobby Title</h1>
-            <p>You are at the end of the list. Select a new category, or try a hobby from your "liked" list.</p>
-        </div>
-        </div>
-        <div class="hobby_card" id="hobbyCard5">
-            <img src="photos/indoor/diamondart.avif" alt="Hands placing small colorful beads onto a printed design using a diamond art pen tool on a table.">
-           <div class="hobby_info">
-            <h1>Diamond Art</h1>
-            <p>Diamond art is a craft where small colorful beads are placed on a sticky canvas to create a sparkling picture. It is similar to paint-by-numbers and helps improve focus and creativity.</p>
-                    <p>Items needed for hobby:</p>
-                <ul>
-                    <li>Diamond Beads</li>
-                    <li>Applicator Pen</li>
-                    <li>Adhesive Canvas Design</li>
-                </ul>
+                <h1>Hobby Title</h1>
+                <p>You are at the end of the list. Select a new category, or try a hobby from your "liked" list.</p>
             </div>
         </div>
-            <div class="hobby_card" id="hobbyCard4">
-            <img src="photos/indoor/scratchart.avif" alt="Person using a wooden stylus to scratch a black scratch art sheet, revealing colorful lines and patterns.">
+        <div class="hobby_card" id="hobbyCard5">
+            <img src="photos/indoor/diamondart.avif"
+                alt="Hands placing small colorful beads onto a printed design using a diamond art pen tool on a table.">
             <div class="hobby_info">
-            <h1>Scratch Art</h1>
-            <p>Scratch art is a creative hobby where you use a wooden stylus to scratch the surface of special paper to reveal colorful designs underneath. It is relaxing and fun while allowing you to create detailed artwork.</p>
-        <p>Items needed for hobby:</p>
-                <ul>
-                    <li>Scratch Art Paper</li>
-                    <li>Wooden Stylus</li>
-                    <li>Creativity</li>
-                </ul>
+                <h1>Diamond Art</h1>
+                <p>Inital Cost: $30</p>
+                <p>Diamond art is a craft where small colorful beads are placed on a sticky canvas to create a sparkling
+                    picture. It is similar to paint-by-numbers and helps improve focus and creativity.</p>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Diamond Beads</li>
+                        <li>Applicator Pen</li>
+                        <li>Adhesive Canvas Design</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
+            </div>
+        </div>
+        <div class="hobby_card" id="hobbyCard4">
+            <img src="photos/indoor/scratchart.avif"
+                alt="Person using a wooden stylus to scratch a black scratch art sheet, revealing colorful lines and patterns.">
+            <div class="hobby_info">
+                <h1>Scratch Art</h1>
+                <p>Inital Cost $30</p>
+                <p>Scratch art is a creative hobby where you use a wooden stylus to scratch the surface of special paper
+                    to reveal colorful designs underneath. It is relaxing and fun while allowing you to create detailed
+                    artwork.</p>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Scratch Art Paper</li>
+                        <li>Wooden Stylus</li>
+                        <li>Creativity</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
             </div>
         </div>
         <div class="hobby_card" id="hobbyCard3">
-            <img src="photos/indoor/soapmaking.avif" alt="Person pouring liquid soap mixture into a yellow silicone mold with different shapes on a table, with soap ingredients and tools nearby.">
+            <img src="photos/indoor/soapmaking.avif"
+                alt="Person pouring liquid soap mixture into a yellow silicone mold with different shapes on a table, with soap ingredients and tools nearby.">
             <div class="hobby_info">
-            <h1>Soap Making</h1>
-            <p>Soap making is a hands-on hobby where you mix ingredients and pour liquid soap into molds to create decorative or scented soaps. It is a relaxing and creative activity that lets you customize colors, shapes, and fragrances.</p>
-            <p>Items needed for hobby:</p>
-                <ul>
-                    <li>Soap Base</li>
-                    <li>Silicone Mold</li>
-                    <li>Fragrance</li>
-                </ul>
+                <h1>Soap Making</h1>
+                <p>Intital Cost: $30</p>
+                <p>Soap making is a hands-on hobby where you mix ingredients and pour liquid soap into molds to create
+                    decorative or scented soaps. It is a relaxing and creative activity that lets you customize colors,
+                    shapes, and fragrances.</p>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Soap Base</li>
+                        <li>Silicone Mold</li>
+                        <li>Fragrance</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
+            </div>
         </div>
-        </div>
-            <div class="hobby_card" id="hobbyCard2">
-            <img src="photos/indoor/tiedye.avif" alt="Person wearing gloves applying colorful dye to twisted fabric using squeeze bottles, with dye supplies on the table.">
+        <div class="hobby_card" id="hobbyCard2">
+            <img src="photos/indoor/tiedye.avif"
+                alt="Person wearing gloves applying colorful dye to twisted fabric using squeeze bottles, with dye supplies on the table.">
             <div class="hobby_info">
-            <h1>Tie Dye</h1>
-            <p>Tie dye is a creative hobby where you twist or tie fabric and apply colorful dye to create unique patterns. It is fun and allows you to design personalized clothing or fabric items.</p>
-               <p>Items needed for hobby:</p>
-                <ul>
-                    <li>White Cotton Clothing </li>
-                    <li>Fabric Dye</li>
-                    <li>Rubber Bands</li>
-                </ul>
+                <h1>Tie Dye</h1>
+                <p>Intial Cost: $30</p>
+                <p>Tie dye is a creative hobby where you twist or tie fabric and apply colorful dye to create unique
+                    patterns. It is fun and allows you to design personalized clothing or fabric items.</p>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>White Cotton Clothing </li>
+                        <li>Fabric Dye</li>
+                        <li>Rubber Bands</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
+            </div>
         </div>
-        </div>
-            <div class="hobby_card" id="hobbyCard1">
-            <img src="photos/single/candlemaking.avif" alt="Someone trying to break a brick of wax to make candles with, surrounded by a bunch of ingredients and finished candles.">
+        <div class="hobby_card" id="hobbyCard1">
+            <img src="photos/single/candlemaking.avif"
+                alt="Someone trying to break a brick of wax to make candles with, surrounded by a bunch of ingredients and finished candles.">
             <div class="hobby_info">
-            <h1>Candle Making</h1>
-            <p>Candle making is a craft where you melt and pour wax, add fragrance or color, and create candles that are both functional and decorative.</p>
-         <p>Items needed for hobby:</p>
-                <ul>
-                    <li>Bees Wax </li>
-                    <li>Wicks</li>
-                    <li>Fragrance</li>
-                </ul>
-        </div>
+                <h1>Candle Making</h1>
+                <p>Inital Cost: $30</p>
+                <p>Candle making is a craft where you melt and pour wax, add fragrance or color, and create candles that
+                    are both functional and decorative.</p>
+                <div id="things">
+                    <p>Items needed for hobby:</p>
+                    <ul>
+                        <li>Bees Wax </li>
+                        <li>Wicks</li>
+                        <li>Fragrance</li>
+                    </ul>
+                </div>
+                <div id="left-right">
+                    <img class="instructions" id="left" src="icons/No.svg">
+                    <img class="instructions" id="right" src="icons/Yes.svg">
+                </div>
+            </div>
         </div>
 
         <div class="yes_info_no">
@@ -129,128 +184,21 @@
         </div>
     </div>
 
-   <!--The start of the phone code-->
-        <div class="phone_card">
-            <div class="phone_nav">
-            <a href="home_v1.html"><img class="sparky_nav" src="sparky_light.svg" alt="Your Sparks Logo">
-            </a>
-            <ul class="nav_list">
-            <li><a href="home_v1.html">Home</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="versone.html">Hobbies</a></li>
-            </ul>
-        </div>
-        <img id="no" src="icons/No.svg" alt="X indicating 'no'.">
-        <img id="yes" src="icons/Yes.svg" alt="Heart indicating 'yes'.">
-        <div id="cardS">
-        <!--Final Card-->
-            <div class="card" id="cardContainer6">
-            <img class="hobby_img" src="photos/end.avif" alt="Photo of people Go Karting">
-            <h2>All Done?</h2>
-            <p>Looks Like it!</p>
-            <p>Go to your "liked" list and see what hobby can be started today!</p>
-        </div>
+    <!--The start of the phone code-->
+    <div class="sliderContainer">
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange1" step="5">
 
-        <!--fifth card -->
-        <div class="card" id="cardContainer5">
-        <img src="photos/indoor/diamondart.avif" alt="Hands placing small colorful beads onto a printed design using a diamond art pen tool on a table.">
-        <h2>Candle Making</h2>
-                        <p>Diamond art is a craft where small colorful beads are placed on a sticky canvas to create a sparkling picture. It is similar to paint-by-numbers and helps improve focus and creativity.</p>
-            <p>Candlemaking is a craft where you melt and pour wax, add fragrance or color, and create candles that are both functional and decorative.</p>
-           <div id="things">
-            <p>List of items needed for this hobby:</p>
-                         <ul>
-                    <li>Diamond Beads</li>
-                    <li>Applicator Pen</li>
-                    <li>Adhesive Canvas Design</li>
-                </ul>
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange2" step="5">
 
-            </div>
-            </div>
-        <!--fourth Card-->
-          <div class="card" id="cardContainer4">
-            <img src="photos/indoor/scratchart.avif" alt="Person using a wooden stylus to scratch a black scratch art sheet, revealing colorful lines and patterns.">
-            <h2>Tie Dye</h2>
-            <p>Scratch art is a creative hobby where you use a wooden stylus to scratch the surface of special paper to reveal colorful designs underneath. It is relaxing and fun while allowing you to create detailed artwork.</p>
-            <div id="things">
-            <p>List of items needed for this hobby:</p>
-            <ul>
-                    <li>Scratch Art Paper</li>
-                    <li>Wooden Stylus</li>
-                    <li>Creativity</li>
-            </ul>
-            </div>
-        </div>
-        <!--Third Card-->
-          <div class="card" id="cardContainer3">
-            <img src="photos/indoor/soapmaking.avif" alt="Person pouring liquid soap mixture into a yellow silicone mold with different shapes on a table, with soap ingredients and tools nearby.">
-            <h2>Soap Making</h2>
-            <p>Soap making is a hands-on hobby where you mix ingredients and pour liquid soap into molds to create decorative or scented soaps. It is a relaxing and creative activity that lets you customize colors, shapes, and fragrances.</p>
-            <div id="things">
-            <p>List of items needed for this hobby:</p>
-            <ul>
-                    <li>Soap Base</li>
-                    <li>Silicone Mold</li>
-                    <li>Fragrance Oil</li>
-            </ul>
-            </div>
-        </div>
-        <!--second Card-->
-          <div class="card" id="cardContainer2">
-            <img src="photos/indoor/tiedye.avif" alt="Person wearing gloves applying colorful dye to twisted fabric using squeeze bottles, with dye supplies on the table.">
-            <h2>Scratch Art</h2>
-            <p>Tie dye is a creative hobby where you twist or tie fabric and apply colorful dye to create unique patterns. It is fun and allows you to design personalized clothing or fabric items.</p>
-            <div id="things">
-            <p>List of items needed for this hobby:</p>
-                <ul>
-                    <li>White Cotton Clothing </li>
-                    <li>Fabric Dye</li>
-                    <li>Rubber Bands</li>
-                </ul>
-            </div>
-        </div>
-        <!--First Card-->
-          <div class="card" id="cardContainer1">
-           <img src="photos/single/candlemaking.avif" alt="Someone trying to break a brick of wax to make candles with, surrounded by a bunch of ingredients and finished candles.">
-            <h2>Candle Making</h2>
-            <p>Candle making is a craft where you melt and pour wax, add fragrance or color, and create candles that are both functional and decorative.</p>\
-            <div id="things">
-            <p>List of items needed for this hobby:</p>
-            <ul>
-                    <li>Bees Wax </li>
-                    <li>Wicks</li>
-                    <li>Fragrance</li>
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange3" step="5">
 
-            </ul>
-            </div>
-        </div>
-        <!--Cards End-->
-        
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange4" step="5">
+
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange5" step="5">
     </div>
 
-        
-        <div class="sliderContainer">
-            <div id="sliderContainer5">
-            <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange5" step="5">
-            </div>
-
-            <div id="sliderContainer4">
-            <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange4" step="5">
-            </div>
-
-            <div id="sliderContainer3">
-            <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange3" step="5">
-            </div>
-
-            <div id="sliderContainer2">
-            <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange2" step="5">
-            </div>
-
-            <div id="sliderContainer1">
-            <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange1" step="5">
-            </div>
-        </div>
-        <script src="phonetwo.js"></script>
-        <script src="versone.js"></script>
+    <script src="phonetwo.js"></script>
+    <script src="versone.js"></script>
 </body>
+
 </html>
