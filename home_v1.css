@@ -1,13 +1,16 @@
 body {
     text-align: center;
+    background-color: #3F50A2;
 }
 
 #story {
     width: 500px;
+    padding: 1rem;
 }
 
-#about {
+.about {
     margin: auto;
+    background-color: white;
 }
 
 .btn {
@@ -69,20 +72,10 @@ form {
     border-radius: 10px;
 }
 
-.profile_card {
-    width: 200px;
-    margin-top: 50px;
-}
-
-.profile_card img {
-    width: 100px;
-    margin: auto;
-}
-
 .about {
     border: 2px solid #F27DAD;
     border-radius: 10px;
-    margin-left: 8rem;
+    margin-left: 25%;
 }
 
 .phone {
@@ -90,6 +83,9 @@ form {
 }
 
 @media only screen and (max-width: 768px) {
+body {
+ display: flex;   
+}
     .desktop {
         display: none;
     }
@@ -100,7 +96,7 @@ form {
 
     .phone_card {
         background-color: #F27DAD;
-        margin-left: 2rem;
+        margin-left: 5rem;
         margin-right: 2rem;
         border-radius: 10px;
         margin-top: 5rem;
@@ -119,7 +115,6 @@ form {
     .start {
         background-color: white;
         border-radius: 10px;
-        margin: 1rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
         padding-left: none;
@@ -136,18 +131,37 @@ form {
         padding-top: 2rem;
         padding-bottom: 2rem;
         border-radius: 10px;
-        margin-left: 2rem;
+        margin-left: 5rem;
         margin-right: 2rem;
         font-size: xx-large;
         color: white;
     }
 
 .login_card{
-    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    top: 0;
+    right: 0;
+}
+
+#signup{
+        position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    top: 0;
+    right: 0;
+}
+
+form{
+    width: 300px;
+    margin: auto;
 }
 
 .trans{
-    display: none;
+display: none;
 }
 
 nav{

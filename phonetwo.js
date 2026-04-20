@@ -1,5 +1,4 @@
 
-
 function removeCard(){
     let v = document.getElementById('sliderRange1').value; 
     let t = 1.5*(v/100);
@@ -40,14 +39,14 @@ function removeCardTwo(){
    document.getElementById('hobbyCard2').style.transform = "rotate(" + v + "deg)";
     document.getElementById('no_one').style.opacity = o;
     document.getElementById('yes_one').style.opacity = t;
-    if (v <= -45){
+    if (v <= -30){
         document.getElementById('sliderRange2').style.display = "none";
         document.getElementById('hobbyCard2').style.display = "none";
         document.getElementById('no_one').style.opacity = "0";
         document.getElementById('yes_one').style.opacity = "0";
     }
      
-    if (v >= 50){
+    if (v >= 35){
         document.getElementById('sliderRange2').style.display = "none";
         document.getElementById('hobbyCard2').style.display = "none";
         document.getElementById('no_one').style.opacity = "0";
@@ -67,13 +66,13 @@ function removeCardThree(){
     document.getElementById('no_one').style.opacity = o;
     document.getElementById('yes_one').style.opacity = t;
     document.getElementById('hobbyCard3').style.transform="rotate(" + v + "deg)";
-    if (v <= -45){
+    if (v <= -30){
         document.getElementById('sliderRange3').style.display = "none";
         document.getElementById('hobbyCard3').style.display = "none";
         document.getElementById('no_one').style.opacity = "0";
         document.getElementById('yes_one').style.opacity = "0";
     }
-    if (v >= 50){
+    if (v >= 35){
         document.getElementById('sliderRange3').style.display = "none";
         document.getElementById('hobbyCard3').style.display = "none";
         document.getElementById('no_one').style.opacity = "0";
@@ -92,13 +91,13 @@ function removeCardFour(){
     document.getElementById('no_one').style.opacity = o;
     document.getElementById('yes_one').style.opacity = t;
     document.getElementById('hobbyCard4').style.transform="rotate(" + v + "deg)";
-    if (v <= -45){
+    if (v <= -30){
         document.getElementById('sliderRange4').style.display = "none";
         document.getElementById('hobbyCard4').style.display = "none";
         document.getElementById('no_one').style.opacity = "0";
         document.getElementById('yes_one').style.opacity = "0";
     }
-    if (v >= 50){
+    if (v >= 35){
         document.getElementById('sliderRange4').style.display = "none";
         document.getElementById('hobbyCard4').style.display = "none";
         document.getElementById('no_one').style.opacity = "0";
@@ -117,13 +116,13 @@ function removeCardFive(){
     document.getElementById('no_one').style.opacity = o;
     document.getElementById('yes_one').style.opacity = t;
     document.getElementById('hobbyCard5').style.transform="rotate(" + v + "deg)";
-    if (v <= -45){
+    if (v <= -30){
         document.getElementById('sliderRange5').style.display = "none";
         document.getElementById('hobbyCard5').style.display = "none";
         document.getElementById('no_one').style.opacity = "0";
         document.getElementById('yes_one').style.opacity = "0";
     }
-    if (v >= 50){
+    if (v >= 35){
         document.getElementById('sliderRange5').style.display = "none";
         document.getElementById('hobbyCard5').style.display = "none";
         document.getElementById('no_one').style.opacity = "0";

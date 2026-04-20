@@ -1,5 +1,5 @@
 body {
-    background: purple ;
+    background: #3F4FA2;
     margin: 0px;
 
 }
@@ -71,13 +71,13 @@ button {
 }
 
 #right {
-    height: 70px;
-    width: 70px;
-    margin-left: 155px;
+    height: 100px;
+    width: 100px;
+    margin-left: 50%;
 }
 #left{
-    height: 60px;
-    width: 60px;
+    height:100px;
+    width: 100px;
 }
 
 
@@ -167,7 +167,7 @@ body {
 }
 
 #left-right {
-    display: block;
+    display: flex;
 }
 
 #no_one {
@@ -182,66 +182,6 @@ body {
     display: block;
     z-index: 99;
     opacity: .01;
-}
-
-#no_two {
-    display: block;
-    z-index: 99;
-    opacity: 0;
-
-
-}
-
-#yes_two {
-    display: block;
-    z-index: 99;
-    opacity: 0;
-}
-
-#no_three {
-    display: block;
-    z-index: 99;
-    opacity: 0;
-   
-
-}
-
-#yes_three {
-    display: block;
-    z-index: 99;
-    opacity:0;
-}
-
-#no_four {
-    display: block;
-    z-index: 99;
-    opacity: 0;
-
-}
-
-#yes_four {
-    display: block;
-    z-index: 99;
-    opacity: 0;
-}
-
-#no_five {
-    display: block;
-    z-index: 99;
-    opacity: 0;
-
-
-}
-
-#yes_five {
-    display: block;
-    z-index: 99;
-    opacity: 0;
-}
-
-
-.button_nav {
-    display: none;
 }
 
 p {
@@ -267,7 +207,7 @@ p {
     border-radius: 10px;
     padding-bottom: 1rem;
     transform-origin: bottom center;
-    height: 800px;
+    height: 700px;
 }
 
 .sliderContainer {

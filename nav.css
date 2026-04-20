@@ -15,7 +15,7 @@ nav {
 }
 
 #mid_nav{ 
-    margin-left: 2.5rem;
+    margin-left: 5.5rem;
     margin-right: 2rem;
 }
 
@@ -36,9 +36,14 @@ nav {
 
 #profile {
     font-size:large;
-    border: 2px solid black;
     border-radius: 5px;
     padding: 1rem;
+
+}
+
+.profile {
+        width: 40px;
+    height: 40px;
 }
 
 .phone_nav {
@@ -50,12 +55,6 @@ a {
     color: inherit;
 }
 
-/*li {
-    list-style-type: none;
-
-}
-*/
-
 #lil_nav {
     display: none;
 }
@@ -66,14 +65,17 @@ a {
 
 
 @media only screen and (max-width: 768px) {
-.main_nav {
+header{
+    display: none;
+}
+    .main_nav {
     display: none;
 }
 
 #phone_nav {
     display: block;
-    z-index: 99;
-    position: absolute;
+    z-index: 98;
+    position: relative;
     padding-left: 1rem;
     padding-right: 1rem;
     right: 20px;
@@ -83,17 +85,25 @@ a {
 
 #nav_icon {
     display: block;
+    z-index: 99;
+    margin-left: 80%;
     background-color: #F27DAD;
-    border-radius: 100px;
-    width: 50px;
-    height: 50px;
-    margin-top: 1rem;
-    margin-left: 42%;
-    padding: 1rem;
+    border-radius: 100%;
 }
 
-#nav_icon:active #lil_nav {
+#lil_nav {
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;
+    margin:auto;
+
+}
+
+#nav_icon:focus #lil_nav {
     display: block;
+    background-color: blue;
 }
 
 
@@ -101,8 +111,10 @@ a {
     display: none;
 }
 
-li {
+.p_nav{
     list-style: none;
+    color: orangered; 
+    padding: 1rem;
 }
 
 

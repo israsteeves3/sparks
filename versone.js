@@ -1,3 +1,14 @@
+document.getElementById("nav_icon").addEventListener('click', function(){
+    var t = count++;
+    console.log (t);
+    if (document.getElementById('lil_nav').style.display === 'none'){ 
+        document.getElementById('lil_nav').style.display = 'block'
+    }
+    else {
+        document.getElementById('lil_nav').style.display = 'none';
+    }
+})
+
 let btnNo = document.getElementById('no'); 
 let btnYes = document.getElementById('yes'); 
 let count = 0
@@ -44,6 +55,9 @@ btnYes.addEventListener('click', function(){
         document.getElementById("hobbyCard5").style.display = "none";
         }else{}
 })
+
+
+// show and hide for Nav phone button. 
 
 
 

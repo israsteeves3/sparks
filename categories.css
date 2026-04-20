@@ -1,5 +1,5 @@
 body {
-    background-color: blueviolet;
+    background-color: #3F4FA2;
 }
 
 h1{
@@ -10,7 +10,7 @@ h1{
 #choices {
     width: 350px;
     margin: auto;
-    background-color: aliceblue;
+    background-color: white;
     padding: 1rem;
     border-radius: 10px;
     align-self: center;
@@ -20,13 +20,13 @@ h1{
 
 .icon {
     margin: 10px;
-    border: solid 2px black;
+    border: solid 2px white;
     border-radius: 5px;
     padding: 5px;
 }
 
 #categories{
-    background-color: purple;
+    background-color: #3F4FA2;
     border-radius: 10px;
     height: 350px;
     padding-left: 2rem;
