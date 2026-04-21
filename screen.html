@@ -11,48 +11,75 @@
 
 <body>
     <header>
-        <nav class="button_nav">
+ <nav class="button_nav">
             <a href="index.html">
-                <img class="logo" src="LogoWhite.svg" alt="Your Spark's Logo">
+                <img class="logo" src="blw_logo.webp" alt="Your Spark's Logo">
             </a>
+
             <div id="mid_nav">
                 <a id="single" href="single.html">
                     <img class="icon" src="icons/Solo.webp" alt="Icon representing a single person ">
+                    <p class="tiny">Individual</p>
                 </a>
                 <a id="group" href="group.html">
                     <img class="icon" src="icons/Team.webp" alt="Icon representing a group of people">
+                    <p class="tiny">Group</p>
                 </a>
                 <a id="low_e" href="low_effort.html">
-                    <img class="icon" src="icons/low effort.webp" alt="Icon representing low effort">
+                    <img class="icon" src="icons/low_effort.webp" alt="Icon representing low effort">
+                    <p class="tiny">Low</p>
+                    <p class="tiny">Effort</p>
                 </a>
                 <a id="high_e" href="high_effort.html">
-                    <img class="icon" src="icons/high effort.webp" alt="Icon representing high effort">
+                    <img class="icon" src="icons/high_effort.webp" alt="Icon representing high effort">
+                    <p class="tiny">High</p>
+                    <p class="tiny">Effort</p>
                 </a>
                 <a id="indoor" href="indoor.html">
                     <img class="icon" src="icons/indoor.webp" alt="Icon representing indoor activity">
+                    <p class="tiny">Indoor</p>
                 </a>
                 <a id="active" href="physical.html">
                     <img class="icon" src="icons/outdoor.webp" alt="Icon representing physical activity">
+                    <p class="tiny">Physical</p>
                 </a>
                 <a id="high_b" href="high_budget.html">
                     <img class="icon" src="icons/highcost.webp" alt="Icon representing low budget">
+                    <p class="tiny">High</p>
+                    <p class="tiny">Budget</p>
                 </a>
                 <a id="low_b" href="low_budget.html">
                     <img class="icon" src="icons/lowcost.webp" alt="Icon representing high budget">
+                    <p class="tiny">Low</p>
+                    <p class="tiny">Budget</p>
                 </a>
                 <a id="screen" href="screen.html">
                     <img class="icon" src="icons/Screen.webp" alt="Icon representing screen activity">
+                    <p class="tiny">Screen</p>
                 </a>
             </div>
-            <a href="profile">
-                <img class="icon" src="" alt="icon representing profile settings">
-            </a>
+            <a id="profile" href="profile.html">
+                    <img class="profile" src="icons/profile.webp" alt="Icon representing profile settings">
+                    <p class="tiny">Profile</p>
+                    <p class="tiny">Settings</p>
+                </a>
         </nav>
     </header>
 
+                <div id="phone_nav">
+                <button id="nav_icon">&#9776;</button>
+                <ul id="lil_nav">
+                    <li class="p_nav"><a href="index.html">Home</a></li>
+                    <li class="p_nav"><a href="profile.html">Profile</a></li>
+                    <li class="p_nav"><a href="phone_categories.html">Categories</a></li>
+                    </ul>
+            </div>
+
     <div id="svg">
-        <img src="No_white.svg" id="no_one" class="no">
-        <img src="Yes_white.svg" id="yes_one" class="yes">
+        <img src="icons/No_white.svg" id="no_one" class="no"
+            alt="A purple page showing a giant x, indicating that the hobby has been disliked.">
+        <img src="icons/Yes_white.svg" id="yes_one" class="yes"
+            alt="A pink page showing a giant heart, indicating that teh hobby has been disliked.">
     </div>
 
     <div class="slides">
@@ -67,10 +94,11 @@
             <img src="photos/screen/Tv.avif" alt="A person holding a remote and changing the channel on their tv.">
             <div class="hobby_info">
                 <h1>Binge-Watching TV</h1>
+                <p>Inital Cost: $30</p>
                 <p>Binge-watching TV as a hobby can be a fun way to relax and unwind after a busy day. It lets you dive
                     deep into stories and characters, making it easy to get fully immersed in different worlds. However,
                     it’s important to balance it with other activities to keep a healthy routine.</p>
-                <div id="things">
+                <div class="things">
                     <p>Items needed for hobby:</p>
                     <ul>
                         <li>Comfy Chair or Couch</li>
@@ -78,14 +106,18 @@
                         <li>TV</li>
                     </ul>
                 </div>
-                <div id="left-right">
-                    <div id="left">
-                        <img class="instructions" src="icons/No.svg">
-                        <img class="instructions" src="icons/P_Arrow.svg">
+                <div class="left-right">
+                    <div class="left">
+                        <img class="instructions" src="icons/No.svg"
+                            alt="A purple x indicating that you dislike a hobby.">
+                        <img class="instructions" src="icons/P_Arrow.svg"
+                            alt="A arrow pointing left indicating which way to move the hobby card to show that you dislike the hobby.">
                     </div>
-                    <div id="right">
-                        <img class="instructions" src="icons/Yes.svg">
-                        <img class="instructions" src="icons/Pink_Arrow.svg">
+                    <div class="right">
+                        <img class="instructions" src="icons/Yes.svg"
+                            alt="A pink heart indicating that you like a hobby.">
+                        <img class="instructions" src="icons/Pink_Arrow.svg"
+                            alt="A pink arrow pointing right indicating which way to move the hobby card to show that you like the hobby.">
                     </div>
                 </div>
             </div>
@@ -94,11 +126,12 @@
             <img src="photos/screen/Gaming_10.avif" alt="A person playing video games on their computer.">
             <div class="hobby_info">
                 <h1>Gaming</h1>
+                <p>Inital Cost: $30</p>
                 <p>Gaming as a hobby can be an exciting way to relax, challenge yourself, and have fun. It allows you to
                     explore different worlds, improve skills like problem-solving and coordination, and even connect
                     with friends. Like any hobby, it’s best enjoyed in moderation to keep a healthy balance with other
                     activities.</p>
-                <div id="things">
+                <div class="things">
                     <p>Items needed for hobby:</p>
                     <ul>
                         <li>Gaming Console</li>
@@ -106,14 +139,18 @@
                         <li>Comfy Chair or Couch</li>
                     </ul>
                 </div>
-                <div id="left-right">
-                    <div id="left">
-                        <img class="instructions" src="icons/No.svg">
-                        <img class="instructions" src="icons/P_Arrow.svg">
+                <div class="left-right">
+                    <div class="left">
+                        <img class="instructions" src="icons/No.svg"
+                            alt="A purple x indicating that you dislike a hobby.">
+                        <img class="instructions" src="icons/P_Arrow.svg"
+                            alt="A arrow pointing left indicating which way to move the hobby card to show that you dislike the hobby.">
                     </div>
-                    <div id="right">
-                        <img class="instructions" src="icons/Yes.svg">
-                        <img class="instructions" src="icons/Pink_Arrow.svg">
+                    <div class="right">
+                        <img class="instructions" src="icons/Yes.svg"
+                            alt="A pink heart indicating that you like a hobby.">
+                        <img class="instructions" src="icons/Pink_Arrow.svg"
+                            alt="A pink arrow pointing right indicating which way to move the hobby card to show that you like the hobby.">
                     </div>
                 </div>
             </div>
@@ -122,10 +159,11 @@
             <img src="photos/screen/coding.avif" alt="A person looking at there html code on their computer screen.">
             <div class="hobby_info">
                 <h1>Coding</h1>
+                <p>Inital Cost: $30</p>
                 <p>Coding as a hobby can be a creative and rewarding way to build things and solve problems. It lets you
                     develop useful skills, think logically, and even create your own apps, games, or websites. Like any
                     hobby, it’s best to balance it with other activities to stay well-rounded.</p>
-                <div id="things">
+                <div class="things">
                     <p>Items needed for hobby:</p>
                     <ul>
                         <li>Computer</li>
@@ -133,14 +171,18 @@
                         <li>Computer Mouse</li>
                     </ul>
                 </div>
-                <div id="left-right">
-                    <div id="left">
-                        <img class="instructions" src="icons/No.svg">
-                        <img class="instructions" src="icons/P_Arrow.svg">
+                <div class="left-right">
+                    <div class="left">
+                        <img class="instructions" src="icons/No.svg"
+                            alt="A purple x indicating that you dislike a hobby.">
+                        <img class="instructions" src="icons/P_Arrow.svg"
+                            alt="A arrow pointing left indicating which way to move the hobby card to show that you dislike the hobby.">
                     </div>
-                    <div id="right">
-                        <img class="instructions" src="icons/Yes.svg">
-                        <img class="instructions" src="icons/Pink_Arrow.svg">
+                    <div class="right">
+                        <img class="instructions" src="icons/Yes.svg"
+                            alt="A pink heart indicating that you like a hobby.">
+                        <img class="instructions" src="icons/Pink_Arrow.svg"
+                            alt="A pink arrow pointing right indicating which way to move the hobby card to show that you like the hobby.">
                     </div>
                 </div>
             </div>
@@ -151,7 +193,7 @@
         <button class="choices" id="yes">&#10004;</button>
     </div>
 
-    </div>
+
 
 
     <div class="sliderContainer">

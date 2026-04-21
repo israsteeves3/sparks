@@ -4,13 +4,16 @@ body {
 }
 
 #story {
-    width: 500px;
+    width: 700px;
     padding: 1rem;
+    margin: auto;
 }
 
 .about {
+    width: 900px;
     margin: auto;
     background-color: white;
+    border-radius: 10px;
 }
 
 .btn {
@@ -72,12 +75,6 @@ form {
     border-radius: 10px;
 }
 
-.about {
-    border: 2px solid #F27DAD;
-    border-radius: 10px;
-    margin-left: 25%;
-}
-
 .phone {
     display: none;
 }
@@ -86,7 +83,8 @@ form {
 body {
  display: flex;   
 }
-    .desktop {
+  
+.desktop {
         display: none;
     }
 
@@ -100,16 +98,20 @@ body {
         margin-right: 2rem;
         border-radius: 10px;
         margin-top: 5rem;
+        padding-bottom: 3rem;
+
     }
 
     .phone_card h1{
-        font-style: bold ;
+        color: white;
+        padding: 1rem;
     }
     .BG_logo {
-        opacity: 50%;
         height: 200px;
         width: auto;
-        right: 10rem;
+        margin: auto;
+        padding: 1rem;
+        opacity: 75%;
     }
 
     .start {
@@ -122,7 +124,7 @@ body {
         width: 10rem;
         font-size: xx-large;
         margin: auto;
-        color: black;
+        color: #3F4FA2;
     }
 
     .profile_button {

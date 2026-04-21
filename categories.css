@@ -20,7 +20,6 @@ h1{
 
 .icon {
     margin: 10px;
-    border: solid 2px white;
     border-radius: 5px;
     padding: 5px;
 }
@@ -31,4 +30,12 @@ h1{
     height: 350px;
     padding-left: 2rem;
     padding-top: 3rem;
+}
+
+.row{
+    display: flex;
+}
+
+h1 {
+    color: #3F4FA2;
 }

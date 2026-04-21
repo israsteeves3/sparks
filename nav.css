@@ -14,9 +14,11 @@ nav {
     align-items: center;
 }
 
+
 #mid_nav{ 
-    margin-left: 5.5rem;
-    margin-right: 2rem;
+    display: flex;
+    margin-left: 15rem;
+    margin-right: 20rem;
 }
 
 .main_body {
@@ -61,6 +63,14 @@ a {
 
 #nav_icon {
     display: none;
+}
+
+.tiny {
+    font-size: 10px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
 }
 
 
