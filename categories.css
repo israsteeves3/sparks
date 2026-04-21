@@ -1,5 +1,7 @@
 body {
     background-color: #3F4FA2;
+    background-image: url(portrait.png);
+    background-size: 600px
 }
 
 h1{

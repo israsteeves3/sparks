@@ -1,6 +1,8 @@
 body {
     text-align: center;
     background-color: #3F50A2;
+    background-image: url(landscape.png);
+    background-size: cover;
 }
 
 #story {
@@ -80,11 +82,11 @@ form {
 }
 
 @media only screen and (max-width: 768px) {
-body {
- display: flex;   
-}
-  
-.desktop {
+    body{
+        background-image: url(BG.png);
+        background-size: 600px;
+    }
+    .desktop {
         display: none;
     }
 
@@ -93,30 +95,30 @@ body {
     }
 
     .phone_card {
-        background-color: #F27DAD;
-        margin-left: 5rem;
-        margin-right: 2rem;
-        border-radius: 10px;
+        width: 500px;
+        margin: auto;
         margin-top: 5rem;
-        padding-bottom: 3rem;
-
     }
 
     .phone_card h1{
         color: white;
         padding: 1rem;
     }
-    .BG_logo {
-        height: 200px;
-        width: auto;
-        margin: auto;
-        padding: 1rem;
-        opacity: 75%;
+    
+    .phone_logo {
+        width: 300px;
     }
+    
+    .BG_logo {
+        height: 300px;
+        width: auto;
+        padding: 1rem;
+    }
+
 
     .start {
         background-color: white;
-        border-radius: 10px;
+        border-radius: 20px;
         padding-top: 1rem;
         padding-bottom: 1rem;
         padding-left: none;
@@ -129,14 +131,14 @@ body {
 
     .profile_button {
         background-color: #EF5D4E;
-        margin: 2rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        border-radius: 10px;
-        margin-left: 5rem;
-        margin-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 2rem;
         font-size: xx-large;
         color: white;
+        width: 10rem;
     }
 
 .login_card{
