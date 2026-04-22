@@ -17,13 +17,8 @@ nav {
 
 #mid_nav{ 
     display: flex;
-    margin-left: 15rem;
+    margin-left: 5rem;
     margin-right: 20rem;
-}
-
-.main_body {
-    display: flex;
-    margin-top: 50px;
 }
 
 .logo {
@@ -96,7 +91,7 @@ header{
     display: block;
     z-index: 99;
     margin-left: 80%;
-    margin-bottom: none;
+    margin-bottom: 0px;
     background-color: #F27DAD;
     border-radius: 100%;
 }

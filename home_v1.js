@@ -4,30 +4,19 @@
     console.log("hello");
 })*/
 
-sub.addEventListener("click", function(e){
-    document.getElementById("login").style.display = "none";
-    document.getElementById("trans").style.display = "none";
-    e.preventDefault();
-})
 
 sign.addEventListener("click", function(e){
     document.getElementById("login").style.display = "none";
     document.getElementById("signup").style.display = "block";
     e.preventDefault();
-})
-
-sub2.addEventListener("click", function(e){
-    document.getElementById("signup").style.display = "none";
-    document.getElementById("trans").style.display = "none";
-    e.preventDefault();
-})
+});
 
 logButton.addEventListener("click", function (e){
     document.getElementById("signup").style.display = "none";
     document.getElementById("login").style.display = "block";
     e.preventDefault();
-})
+});
 
 document.getElementById("nav_icon").addEventListener("click", function(){
     document.getElementById("lil_nav").style.display = "block";
-})
+});

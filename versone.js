@@ -2,16 +2,16 @@ document.getElementById("nav_icon").addEventListener('click', function(){
     var t = count++;
     console.log (t);
     if (document.getElementById('lil_nav').style.display === 'none'){ 
-        document.getElementById('lil_nav').style.display = 'block'
+        document.getElementById('lil_nav').style.display = 'block';
     }
     else {
         document.getElementById('lil_nav').style.display = 'none';
     }
-})
+});
 
 let btnNo = document.getElementById('no'); 
 let btnYes = document.getElementById('yes'); 
-let count = 0
+let count = 0;
 
 btnNo.addEventListener('click', function(){
     count++;
@@ -21,7 +21,6 @@ btnNo.addEventListener('click', function(){
         setTimeout(function() {
     document.getElementById("hobbyCard1").style.display = "none";
 }, 500);
-        ;
     }
     if (t == 3){
          setTimeout(function() {
@@ -42,7 +41,7 @@ btnNo.addEventListener('click', function(){
     document.getElementById("hobbyCard5").style.display = "none";
 }, 500);}
         else{}
-})
+});
 
 btnYes.addEventListener('click', function(){
     count++;
@@ -74,7 +73,7 @@ btnYes.addEventListener('click', function(){
 }, 500);
     }else{}
 
-})
+});
 
 btnNo.addEventListener("click", function(){
     document.getElementById("no_one").classList.remove('fade_one');
