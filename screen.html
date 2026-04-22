@@ -11,9 +11,9 @@
 
 <body>
     <header>
- <nav class="button_nav">
+        <nav class="button_nav">
             <a href="index.html">
-                <img class="logo" src="blw_logo.webp" alt="Your Spark's Logo">
+                <img class="logo" src="Final.png" alt="Your Spark's Logo">
             </a>
 
             <div id="mid_nav">
@@ -59,27 +59,27 @@
                 </a>
             </div>
             <a id="profile" href="profile.html">
-                    <img class="profile" src="icons/profile.webp" alt="Icon representing profile settings">
-                    <p class="tiny">Profile</p>
-                    <p class="tiny">Settings</p>
-                </a>
+                <img class="profile" src="icons/profile.webp" alt="Icon representing profile settings">
+                <p class="tiny">Profile</p>
+                <p class="tiny">Settings</p>
+            </a>
         </nav>
     </header>
 
-                <div id="phone_nav">
-                <button id="nav_icon">&#9776;</button>
-                <ul id="lil_nav">
-                    <li class="p_nav"><a href="index.html">Home</a></li>
-                    <li class="p_nav"><a href="profile.html">Profile</a></li>
-                    <li class="p_nav"><a href="phone_categories.html">Categories</a></li>
-                    </ul>
-            </div>
+    <div id="phone_nav">
+        <button id="nav_icon">&#9776;</button>
+        <ul id="lil_nav">
+            <li class="p_nav"><a href="index.html">Home</a></li>
+            <li class="p_nav"><a href="profile.html">Profile</a></li>
+            <li class="p_nav"><a href="phone_categories.html">Categories</a></li>
+        </ul>
+    </div>
 
     <div id="svg">
         <img src="icons/No_white.svg" id="no_one" class="no"
             alt="A purple page showing a giant x, indicating that the hobby has been disliked.">
         <img src="icons/Yes_white.svg" id="yes_one" class="yes"
-            alt="A pink page showing a giant heart, indicating that teh hobby has been disliked.">
+            alt="A pink page showing a giant heart, indicating that the hobby has been liked.">
     </div>
 
     <div class="slides">
@@ -189,27 +189,24 @@
         </div>
     </div>
     <div class="yes_info_no">
-        <button class="choices" id="no">&#10008;</button>
-        <button class="choices" id="yes">&#10004;</button>
+        <button class="choices" id="no">
+            <img src="icons/No.svg" alt="A purple x indicating that you dislike a hobby.">
+        </button>
+        <button class="choices" id="yes">
+            <img src="icons/Yes.svg" alt="A pink heart indicating that you like a hobby.">
+        </button>
     </div>
 
 
 
-
     <div class="sliderContainer">
-        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange5" step="5">
-
-
-        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange4" step="5">
-
-
-        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange3" step="5">
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange1" step="5">
 
 
         <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange2" step="5">
 
 
-        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange1" step="5">
+        <input type="range" value="0" min="-50" max="50" class="rangeArea" id="sliderRange3" step="5">
 
     </div>
     <script src="phonetwo.js"></script>

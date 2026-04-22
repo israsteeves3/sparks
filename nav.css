@@ -96,6 +96,7 @@ header{
     display: block;
     z-index: 99;
     margin-left: 80%;
+    margin-bottom: none;
     background-color: #F27DAD;
     border-radius: 100%;
 }

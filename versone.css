@@ -1,10 +1,8 @@
 body {
     background: #3F4FA2;
     background-image: url(landscape.png);
-    width: 800;
-    height: auto;
+    width: 100%;
     margin: 0px;
-
 }
 
 .hobby_card{
@@ -51,16 +49,33 @@ button {
     border-radius: 10px;
     border: none;
     font-size: x-large;
+    display: flex;
 }
 
 #no {
-    background-color: red;
+    background-color: white;
+    border-radius: 100px;
+    border: 2px solid #3F4FA2;
+
+}
+
+#no img {
+    width: 30px;
+    height: 30px;
+    align-self: center;
 }
 
 #yes {
-    background-color: green;
+    background-color: white;
+    border-radius: 100px;
+    border: 2px solid #F27DAD;
 }
 
+#yes img {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
 
 .left-right {
     display: none;
@@ -166,10 +181,11 @@ button {
 
 @media only screen and (max-width: 768px) {
 
-body{
-        background-image: url(portrait.png);
-        background-size: 600px;
-    }
+body { 
+    background-color: #3F4FA2;
+    background-image: none;
+    position: fixed;
+}
 
 .hobby_card img {
     height: 25%;

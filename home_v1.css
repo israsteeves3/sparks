@@ -83,7 +83,7 @@ form {
 
 @media only screen and (max-width: 768px) {
     body{
-        background-image: url(BG.png);
+        background-image: url(portrait.png);
         background-size: 600px;
     }
     .desktop {
@@ -103,6 +103,7 @@ form {
     .phone_card h1{
         color: white;
         padding: 1rem;
+        font-family: Georgia, Verdana, sans-serif;
     }
     
     .phone_logo {

@@ -1,6 +1,6 @@
 
 #profile_card {
-    width: 200px;
+    width: 400px;
     height: 600px;
     margin: auto;
     background-color: white;
@@ -9,6 +9,7 @@
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 1rem;
+    margin-top: 3rem;
 }
 
 #profile_img {
@@ -34,3 +35,34 @@ p{
     color: #3F50A2;
 }
 
+#sub {
+    background-color: #3F50A2;
+    border-radius: 20px;
+    color: white;
+    width: 100px;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    border: none;
+}
+
+.current {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) { 
+body{
+        background-image: url(portrait.png);
+        background-size: 600px;
+}
+
+#profile_card {
+    width: 200px;
+    height: 600px;
+
+}
+
+.current {
+    display: block;
+}
+
+}
